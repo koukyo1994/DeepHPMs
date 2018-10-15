@@ -122,7 +122,7 @@ class DeepHPM:
         f = u_t - self.pde_net(terms)
         return f
 
-    def train_u(self, N_iter, model_path):
+    def train_u(self, N_iter, model_path, scipy_opt=False):
         tf_dict = {
             self.t_placeholder: self.t,
             self.x_placeholder: self.x,
@@ -139,16 +139,16 @@ class DeepHPM:
                 if model_path:
                     if os.path.exists(model_path):
                         os.rmdir(model_path)
-                    self.saver(self.sess, model_path)
+                    self.saver.save(self.sess, model_path)
                 start_time = time.time()
+        if scipy_opt:
+            self.scipy_u_optimizer.minimize(
+                self.sess,
+                feed_dict=tf_dict,
+                fetches=[self.f_loss],
+                loss_callback=self.callback)
 
-        self.scipy_u_optimizer.minimize(
-            self.sess,
-            feed_dict=tf_dict,
-            fetches=[self.f_loss],
-            loss_callback=self.callback)
-
-    def train_f(self, N_iter, model_path):
+    def train_f(self, N_iter, model_path, scipy_opt=False):
         tf_dict = {
             self.t_placeholder: self.t,
             self.x_placeholder: self.x,
@@ -165,14 +165,14 @@ class DeepHPM:
                 if model_path:
                     if os.path.exists(model_path):
                         os.rmdir(model_path)
-                    self.saver(self.sess, model_path)
+                    self.saver.save(self.sess, model_path)
                 start_time = time.time()
-
-        self.scipy_f_optimizer.minimize(
-            self.sess,
-            feed_dict=tf_dict,
-            fetches=[self.f_loss],
-            loss_callback=self.callback)
+        if scipy_opt:
+            self.scipy_f_optimizer.minimize(
+                self.sess,
+                feed_dict=tf_dict,
+                fetches=[self.f_loss],
+                loss_callback=self.callback)
 
     def identifier_predict(self, t_star, x_star):
         tf_dict = {self.t_placeholder: t_star, self.x_placeholder: x_star}
@@ -253,7 +253,7 @@ class DeepHPM:
         # Scipy Optimizer for Solution
         self.scipy_solver_optimizer = tf.contrib.opt.ScipyOptimizerInterface(
             self.solver_loss,
-            var_list=self.weights + self.biasses,
+            var_list=self.weights + self.biases,
             method="L-BFGS-B",
             options={
                 "maxiter": 50000,

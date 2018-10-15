@@ -1,11 +1,17 @@
 import sys
 import numpy as np
-import scipy
+import scipy.io
+import argparse
 from pyDOE import lhs
 
 if __name__ == "__main__":
     sys.path.append("./")
     from core.model import DeepHPM
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--niter", default=10000)
+    parser.add_argument("--scipyopt", default=False)
+    args = parser.parse_args()
 
     # Domain Boundary
     idn_lb = np.array([0.0, -8.0])
@@ -82,8 +88,8 @@ if __name__ == "__main__":
                     u_layers, pde_layers)
 
     # Train the Identifier
-    model.train_u(10000, "model/saved.model")
-    model.train_f(10000, "model/saved.model")
+    model.train_u(args.niter, "model/saved.model", args.scipyopt)
+    model.train_f(args.niter, "model/saved.model", args.scipyopt)
 
     idn_u_pred, idn_f_pred = model.identifier_predict(idn_t_star, idn_x_star)
     idn_error_u = np.linalg.norm(idn_u_star - idn_u_pred, 2) / np.linalg.norm(

@@ -10,7 +10,7 @@ def xavier_init(size):
         tf.truncated_normal([in_dim, out_dim],
                             stddev=xavier_stddev,
                             dtype=tf.float32),
-        dtype=tf.float(32))
+        dtype=tf.float32)
 
 
 def initialize_nn(layers):
