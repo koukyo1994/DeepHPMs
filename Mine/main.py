@@ -96,7 +96,7 @@ if __name__ == "__main__":
         idn_u_star, 2)
     model.logger.info(f"Error u: {idn_error_u:.3e}")
 
-    model.train_solver(10000)
+    model.train_solver(args.niter, args.scipyopt)
     u_pred, f_pred = model.solver_predict(sol_t_star, sol_x_star)
     error_u = np.linalg.norm(sol_u_star - u_pred, 2) / np.linalg.norm(
         sol_u_star, 2)

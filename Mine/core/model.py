@@ -288,7 +288,7 @@ class DeepHPM:
     def callback(self, loss):
         self.logger.info(f"'L-BFGS-B' Optimizer Loss: {loss:.3e}")
 
-    def train_solver(self, N_iter):
+    def train_solver(self, N_iter, scipy_opt=False):
         tf_dict = {
             self.t0_placeholder: self.t0,
             self.x0_placeholder: self.x0,
@@ -302,18 +302,19 @@ class DeepHPM:
         }
         start_time = time.time()
         for i in range(N_iter):
-            self.sess.run(self.adam_solver_optimizer, tf_dict)
+            self.sess.run(self.sol_train_op_Adam, tf_dict)
             if i % INTERVAL == 10:
                 elapsed = time.time() - start_time
                 loss_value = self.sess.run(self.solver_loss, tf_dict)
                 self.logger.info(
                     f"It: {i}, Loss: {loss_value:.3e}, Time: {elapsed:.2f}")
                 start_time = time.time()
-        self.scipy_solver_optimizer.minimize(
-            self.sess,
-            feed_dict=tf_dict,
-            fetches=[self.solver_loss],
-            loss_callback=self.callback)
+        if scipy_opt:
+            self.scipy_solver_optimizer.minimize(
+                self.sess,
+                feed_dict=tf_dict,
+                fetches=[self.solver_loss],
+                loss_callback=self.callback)
 
     def solver_predict(self, t_star, x_star):
         u_star = self.sess.run(self.u0_pred, {
