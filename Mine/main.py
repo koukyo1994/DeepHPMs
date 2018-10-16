@@ -3,11 +3,13 @@ import numpy as np
 import scipy.io
 import argparse
 from pyDOE import lhs
+from scipy.interpolate import griddata
+from core.plot import plt_saver
 
 if __name__ == "__main__":
     sys.path.append("./")
     from core.model import DeepHPM
-    
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--niter", default=10000)
     parser.add_argument("--scipyopt", default=False)
@@ -101,3 +103,7 @@ if __name__ == "__main__":
     error_u = np.linalg.norm(sol_u_star - u_pred, 2) / np.linalg.norm(
         sol_u_star, 2)
     model.logger.info(f"Error u: {error_u:.3e}")
+
+    U_pred = griddata(
+        sol_X_star, u_pred.flatten(), (sol_T, sol_X), method="cubic")
+    plt_saver(U_pred, sol_exact, sol_lb, sol_ub)
