@@ -106,4 +106,4 @@ if __name__ == "__main__":
 
     U_pred = griddata(
         sol_X_star, u_pred.flatten(), (sol_T, sol_X), method="cubic")
-    plt_saver(U_pred, sol_exact, sol_lb, sol_ub)
+    plt_saver(U_pred, sol_exact, sol_lb, sol_ub, "Burgers_different")

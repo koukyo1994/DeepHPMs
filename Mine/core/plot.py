@@ -4,7 +4,7 @@ matplotlib.use("agg")
 sys.path.append("..")
 
 
-def plt_saver(u_pred, sol_exact, sol_lb, sol_ub):
+def plt_saver(u_pred, sol_exact, sol_lb, sol_ub, path):
     import matplotlib.pyplot as plt
     import matplotlib.gridspec as gridspec
     from mpl_toolkits.axes_grid1 import make_axes_locatable
@@ -47,4 +47,4 @@ def plt_saver(u_pred, sol_exact, sol_lb, sol_ub):
     ax.set_xlabel('$t$')
     ax.set_ylabel('$x$')
     ax.set_title('Learned Dynamics', fontsize=10)
-    savefig("figures/Burgers_Extrapolate")
+    savefig(f"figures/{path}")
