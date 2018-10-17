@@ -6,7 +6,7 @@ dom = [-8 8]; x = chebfun('x',dom); tspan = linspace(0,10,steps+1);
 S = spinop(dom, tspan);
 S.lin = @(u) + 0.1*diff(u,2);
 S.nonlin = @(u) - 0.5*diff(u.^2); % spin cannot parse "u.*diff(u)"
-S.init = cos(pi*x/8);
+S.init = cos(pi * x / 8);
 u = spin(S,nn,1e-4);
 
 usol = zeros(nn,steps+1);
