@@ -11,8 +11,8 @@ if __name__ == "__main__":
     from core.model import DeepHPM
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--niter", default=0)
-    parser.add_argument("--scipyopt", default=True)
+    parser.add_argument("--niter", default=50000)
+    parser.add_argument("--scipyopt", default=False)
     args = parser.parse_args()
 
     dataloader = DataLoader(
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     sol_X_star = sol_data["sol_X_star"]
     sol_T = sol_data["sol_T"]
     sol_X = sol_data["sol_X"]
-    sol_exact = sol_data["sol_exacts"]
+    sol_exact = sol_data["sol_exact"]
 
     U_pred = griddata(
         sol_X_star, u_pred.flatten(), (sol_T, sol_X), method="cubic")
