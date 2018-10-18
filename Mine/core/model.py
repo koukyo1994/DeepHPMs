@@ -66,7 +66,9 @@ class DeepHPM:
 
         # Loss
         self.u_loss = tf.reduce_sum(
-            tf.square(self.u_pred - self.u_placeholder))
+            tf.square(self.u_pred - self.u_placeholder) + 
+            tf.square(self.f_pred)
+        )
         self.f_loss = tf.reduce_sum(tf.square(self.f_pred))
 
         # Scipy Optimizer
@@ -97,7 +99,7 @@ class DeepHPM:
         self.adam_u_optimizer = tf.train.AdamOptimizer()
         self.adam_f_optimizer = tf.train.AdamOptimizer()
         self.adam_u_optimizer_train = self.adam_u_optimizer.minimize(
-            self.u_loss, var_list=self.u_weights + self.u_biases)
+            self.u_loss, var_list=self.u_weights + self.u_biases + self.pde_weights + self.pde_biases)
         self.adam_f_optimizer_train = self.adam_f_optimizer.minimize(
             self.f_loss, var_list=self.pde_weights + self.pde_biases)
 
