@@ -135,7 +135,7 @@ class DeepHPM:
                 elapsed = time.time() - start_time
                 loss_value = self.sess.run(self.u_loss, tf_dict)
                 self.logger.info(
-                    f"It: {i}, Loss: {loss_value:.3e}, Time: {elapsed:.2f}")
+                    f"u, It: {i}, Loss: {loss_value:.3e}, Time: {elapsed:.2f}")
                 if model_path:
                     if os.path.exists(model_path):
                         os.rmdir(model_path)
@@ -161,7 +161,7 @@ class DeepHPM:
                 elapsed = time.time() - start_time
                 loss_value = self.sess.run(self.f_loss, tf_dict)
                 self.logger.info(
-                    f"It: {i}, Loss: {loss_value:.3e}, Time: {elapsed:.2f}")
+                    f"f, It: {i}, Loss: {loss_value:.3e}, Time: {elapsed:.2f}")
                 if model_path:
                     if os.path.exists(model_path):
                         os.rmdir(model_path)
@@ -307,7 +307,8 @@ class DeepHPM:
                 elapsed = time.time() - start_time
                 loss_value = self.sess.run(self.solver_loss, tf_dict)
                 self.logger.info(
-                    f"It: {i}, Loss: {loss_value:.3e}, Time: {elapsed:.2f}")
+                    f"solver, It: {i}, Loss: {loss_value:.3e}, Time: {elapsed:.2f}"
+                )
                 start_time = time.time()
         if scipy_opt:
             self.scipy_solver_optimizer.minimize(
