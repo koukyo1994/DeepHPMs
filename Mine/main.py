@@ -11,7 +11,7 @@ if __name__ == "__main__":
     from core.model import DeepHPM
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--niter", default=10000)
+    parser.add_argument("--niter", default=10000, type=int)
     parser.add_argument("--scipyopt", default=False)
     args = parser.parse_args()
 
@@ -90,8 +90,8 @@ if __name__ == "__main__":
                     u_layers, pde_layers)
 
     # Train the Identifier
-    model.train_u(args.niter, "model/saved.model", args.scipyopt)
-    model.train_f(args.niter, "model/saved.model", args.scipyopt)
+    model.train_u(args.niter, "model/burgers_saved.model", args.scipyopt)
+    model.train_f(args.niter, "model/burgers_saved.model", args.scipyopt)
 
     idn_u_pred, idn_f_pred = model.identifier_predict(idn_t_star, idn_x_star)
     idn_error_u = np.linalg.norm(idn_u_star - idn_u_pred, 2) / np.linalg.norm(
@@ -106,4 +106,4 @@ if __name__ == "__main__":
 
     U_pred = griddata(
         sol_X_star, u_pred.flatten(), (sol_T, sol_X), method="cubic")
-    plt_saver(U_pred, sol_exact, sol_lb, sol_ub, "Burgers_different")
+    plt_saver(U_pred, sol_exact, sol_lb, sol_ub, "Burgers_different_try")

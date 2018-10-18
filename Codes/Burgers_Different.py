@@ -1,7 +1,8 @@
 """
 @author: Maziar Raissi
 """
-
+import matplotlib
+matplotlib.use("agg")
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -494,4 +495,4 @@ if __name__ == "__main__":
     ax.set_ylabel('$x$')
     ax.set_title('Learned Dynamics', fontsize = 10)
     
-    # savefig('../figures/Burgers_Extrapolate')
+    savefig('../figures/Burgers_Extrapolate_new')
