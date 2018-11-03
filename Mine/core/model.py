@@ -66,9 +66,8 @@ class DeepHPM:
 
         # Loss
         self.u_loss = tf.reduce_sum(
-            tf.square(self.u_pred - self.u_placeholder) + 
-            tf.square(self.f_pred)
-        )
+            tf.square(self.u_pred - self.u_placeholder) +
+            tf.square(self.f_pred))
         self.f_loss = tf.reduce_sum(tf.square(self.f_pred))
 
         # Scipy Optimizer
@@ -99,7 +98,9 @@ class DeepHPM:
         self.adam_u_optimizer = tf.train.AdamOptimizer()
         self.adam_f_optimizer = tf.train.AdamOptimizer()
         self.adam_u_optimizer_train = self.adam_u_optimizer.minimize(
-            self.u_loss, var_list=self.u_weights + self.u_biases + self.pde_weights + self.pde_biases)
+            self.u_loss,
+            var_list=self.u_weights + self.u_biases + self.pde_weights +
+            self.pde_biases)
         self.adam_f_optimizer_train = self.adam_f_optimizer.minimize(
             self.f_loss, var_list=self.pde_weights + self.pde_biases)
 
@@ -147,7 +148,7 @@ class DeepHPM:
             self.scipy_u_optimizer.minimize(
                 self.sess,
                 feed_dict=tf_dict,
-                fetches=[self.f_loss],
+                fetches=[self.u_loss],
                 loss_callback=self.callback)
 
     def train_f(self, N_iter, model_path, scipy_opt=False):
@@ -308,9 +309,10 @@ class DeepHPM:
             if i % INTERVAL == 10:
                 elapsed = time.time() - start_time
                 loss_value = self.sess.run(self.solver_loss, tf_dict)
-                self.logger.info(
-                    f"solver, It: {i}, Loss: {loss_value:.3e}, Time: {elapsed:.2f}"
-                )
+                self.logger.info(f"""
+                    solver, It: {i},
+                    Loss: {loss_value:.3e},
+                    Time: {elapsed:.2f}""")
                 start_time = time.time()
         if scipy_opt:
             self.scipy_solver_optimizer.minimize(
