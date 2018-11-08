@@ -26,9 +26,6 @@ class BaseHPM:
         self.sol_lbs = sol_lbs
         self.sol_ubs = sol_ubs
 
-        # Model saver
-        self.saver = tf.train.Saver()
-
         # Logging Tool
         self.logger = get_logger(LOG_PATH)
 

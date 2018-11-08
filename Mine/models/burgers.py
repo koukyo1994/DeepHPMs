@@ -14,6 +14,9 @@ class BurgersHPM(BaseHPM):
         # Initialization for Solver
         self.sol_init(x0, u0, tb, X_f, layers)
 
+        # Model saver
+        self.saver = tf.train.Saver()
+
         # TF session
         self.sess = tf.Session(
             config=tf.ConfigProto(
