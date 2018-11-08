@@ -23,8 +23,8 @@ class BaseHPM:
         self.idn_lbs = idn_lbs
         self.idn_ubs = idn_ubs
 
-        self.sol_lbs = sol_lbs
-        self.sol_ubs = sol_ubs
+        self.sol_lb = sol_lbs
+        self.sol_ub = sol_ubs
 
         # Logging Tool
         self.logger = get_logger(LOG_PATH)
@@ -53,7 +53,6 @@ class BaseHPM:
         self.u_preds = self.idn_net(self.t_phs, self.x_phs)
         self.pde_pred = self.pde_net(self.terms_phs)
         self.f_pred = self.identifier_f(self.t_phs, self.x_phs)
-
         # Loss
         self.loss = tf.reduce_sum(
             sum(
@@ -63,9 +62,13 @@ class BaseHPM:
                 list(map(tf.square, self.f_pred))))
 
         # Scipy Optimizer
+        unnested = []
+        for n in self.u_params:
+            for p in n:
+                unnested += p
         self.scipy_optimizer = tf.contrib.opt.ScipyOptimizerInterface(
             self.loss,
-            var_list=sum(self.u_params) + self.pde_weights + self.pde_biases,
+            var_list=unnested + self.pde_weights + self.pde_biases,
             method="L-BFGS-B",
             options={
                 "maxiter": 100000,
@@ -79,7 +82,7 @@ class BaseHPM:
         self.adam_optimizer = tf.train.AdamOptimizer()
         self.adam_optimizer_train = self.adam_optimizer.minimize(
             self.loss,
-            var_list=sum(self.u_params) + self.pde_weights + self.pde_biases)
+            var_list=unnested + self.pde_weights + self.pde_biases)
 
     def idn_net(self, t, x):
         def init(X, idn_lb, idn_ub):
@@ -103,18 +106,20 @@ class BaseHPM:
         us = self.idn_net(t, x)
         u_ts = map(lambda u, t: tf.gradients(u, t)[0], us, t)
         u_xs = map(lambda u, x: tf.gradients(u, x)[0], us, x)
-        u_xxs = map(lambda u, x: tf.gradients(u, x)[0], u_xs, x)
-
-        terms = map(lambda u, u_x, u_xxs: tf.concat([u, u_x, u_xxs], 1), us,
-                    u_xs, u_xxs)
-        fs = map(lambda u_t, terms: u_t - self.pde_net(terms), u_ts, terms)
+        u_xxs = map(lambda u, x: tf.gradients(u, x)[0], list(u_xs), x)
+        import ipdb
+        ipdb.set_trace()
+        terms = map(lambda u, u_x, u_xxs: tf.concat([u, u_x, u_xxs], 1), list(us),
+                    list(u_xs), list(u_xxs))
+        fs = map(lambda u_t, terms: u_t - self.pde_net(terms), list(u_ts), list(terms))
         return fs
 
     def train_idn(self, N_iter, model_path, scipy_opt=False):
         tf_dict = {k: v for k, v in zip(self.t_phs, self.t)}
         tf_dict_u = {k: v for k, v in zip(self.u_phs, self.u)}
         tf_dict_x = {k: v for k, v in zip(self.x_phs, self.x)}
-        tf_dict.update(tf_dict_u).update(tf_dict_x)
+        tf_dict.update(tf_dict_u)
+        tf_dict.update(tf_dict_x)
         start_time = time.time()
         for i in range(N_iter):
             self.sess.run(self.adam_optimizer_train, tf_dict)
@@ -155,8 +160,8 @@ class BaseHPM:
     def sol_init(self, x0, u0, tb, X_f, layers):
         # Initialize the Vector
         X0 = np.concatenate((0 * x0, x0), 1)
-        X_lb = np.concatenate((tb, 0 * tb + self.sol_lbs[1]), 1)
-        X_ub = np.concatenate((tb, 0 * tb + self.sol_ubs[1]), 1)
+        X_lb = np.concatenate((tb, 0 * tb + self.sol_lb[1]), 1)
+        X_ub = np.concatenate((tb, 0 * tb + self.sol_ub[1]), 1)
 
         self.X_f = X_f
         self.t0 = X0[:, 0:1]  # Initial Data (time)
