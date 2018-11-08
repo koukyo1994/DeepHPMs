@@ -18,7 +18,7 @@ class BaseHPM:
     def __init__(self, idn_lbs: Iterable[N], idn_ubs: Iterable[N], sol_lbs: N,
                  sol_ubs: N, t: Iterable[N], x: Iterable[N], u: Iterable[N],
                  tb: Iterable[N], x0: Iterable[N], u0: Iterable[N],
-                 X_f: Iterable[N], layers: Iterable[Iterable[int]],
+                 X_f: Iterable[N], layers: Iterable[int],
                  u_layers: Iterable[Iterable[int]], pde_layers: Iterable[int]):
 
         if not ((len(idn_lbs) == len(idn_ubs)) and (len(idn_ubs) == len(t)) and
@@ -225,56 +225,56 @@ class BaseHPM:
         self.sol_train_op_Adam = self.adam_solver_optimizer.minimize(
             self.solver_loss, var_list=self.weights + self.biases)
 
-        def solver_net_u(self, t, x):
-            X = tf.concat([t, x], 1)
-            H = 2.0 * (X - self.sol_lb) / (self.sol_ub - self.sol_lb) - 1.0
-            u = nn.neural_net(H, self.weights, self.biases, ACTIVATION)
-            u_x = tf.gradients(u, x)[0]
-            return u, u_x
+    def solver_net_u(self, t, x):
+        X = tf.concat([t, x], 1)
+        H = 2.0 * (X - self.sol_lb) / (self.sol_ub - self.sol_lb) - 1.0
+        u = nn.neural_net(H, self.weights, self.biases, ACTIVATION)
+        u_x = tf.gradients(u, x)[0]
+        return u, u_x
 
-        def solver_net_f(self, t, x):
-            pass
+    def solver_net_f(self, t, x):
+        pass
 
-        def callback(self, loss):
-            self.logger.info(f"'L-BFGS-B' Optimizer Loss: {loss:.3e}")
+    def callback(self, loss):
+        self.logger.info(f"'L-BFGS-B' Optimizer Loss: {loss:.3e}")
 
-        def train_solver(self, N_iter, scipy_opt=False):
-            tf_dict = {
-                self.t0_placeholder: self.t0,
-                self.x0_placeholder: self.x0,
-                self.u0_placeholder: self.u0,
-                self.t_lb_placeholder: self.t_lb,
-                self.x_lb_placeholder: self.x_lb,
-                self.t_ub_placeholder: self.t_ub,
-                self.x_ub_placeholder: self.x_ub,
-                self.t_f_placeholder: self.t_f,
-                self.x_f_placeholder: self.x_f
-            }
-            start_time = time.time()
-            for i in range(N_iter):
-                self.sess.run(self.sol_train_op_Adam, tf_dict)
-                if i % INTERVAL == 10:
-                    elapsed = time.time() - start_time
-                    loss_value = self.sess.run(self.solver_loss, tf_dict)
-                    self.logger.info(f"""
-                        solver, It: {i},
-                        Loss: {loss_value:.3e},
-                        Time: {elapsed:.2f}""")
-                    start_time = time.time()
-            if scipy_opt:
-                self.scipy_solver_optimizer.minimize(
-                    self.sess,
-                    feed_dict=tf_dict,
-                    fetches=[self.solver_loss],
-                    loss_callback=self.callback)
+    def train_solver(self, N_iter, scipy_opt=False):
+        tf_dict = {
+            self.t0_placeholder: self.t0,
+            self.x0_placeholder: self.x0,
+            self.u0_placeholder: self.u0,
+            self.t_lb_placeholder: self.t_lb,
+            self.x_lb_placeholder: self.x_lb,
+            self.t_ub_placeholder: self.t_ub,
+            self.x_ub_placeholder: self.x_ub,
+            self.t_f_placeholder: self.t_f,
+            self.x_f_placeholder: self.x_f
+        }
+        start_time = time.time()
+        for i in range(N_iter):
+            self.sess.run(self.sol_train_op_Adam, tf_dict)
+            if i % INTERVAL == 10:
+                elapsed = time.time() - start_time
+                loss_value = self.sess.run(self.solver_loss, tf_dict)
+                self.logger.info(f"""
+                    solver, It: {i},
+                    Loss: {loss_value:.3e},
+                    Time: {elapsed:.2f}""")
+                start_time = time.time()
+        if scipy_opt:
+            self.scipy_solver_optimizer.minimize(
+                self.sess,
+                feed_dict=tf_dict,
+                fetches=[self.solver_loss],
+                loss_callback=self.callback)
 
-        def solver_predict(self, t_star, x_star):
-            u_star = self.sess.run(self.u0_pred, {
-                self.t0_placeholder: t_star,
-                self.x0_placeholder: x_star
-            })
-            f_star = self.sess.run(self.solver_f_pred, {
-                self.t_f_placeholder: t_star,
-                self.x_f_placeholder: x_star
-            })
-            return u_star, f_star
+    def solver_predict(self, t_star, x_star):
+        u_star = self.sess.run(self.u0_pred, {
+            self.t0_placeholder: t_star,
+            self.x0_placeholder: x_star
+        })
+        f_star = self.sess.run(self.solver_f_pred, {
+            self.t_f_placeholder: t_star,
+            self.x_f_placeholder: x_star
+        })
+        return u_star, f_star

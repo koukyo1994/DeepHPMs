@@ -13,6 +13,9 @@ class DataLoader:
         self.idn_lb = np.array([0.0, -y_max])
         self.idn_ub = np.array([x_max, y_max])
 
+        self.idn_lbs = [np.array([0.0, -y_max]) for _ in idn_path]
+        self.idn_ubs = [np.array([x_max, y_max]) for _ in idn_path]
+
         self.idn_datas = [scipy.io.loadmat(p) for p in idn_path]
 
         self.idn_ts = [d["t"].flatten()[:, None] for d in self.idn_datas]
@@ -93,4 +96,37 @@ class DataLoader:
             "idn_u_star": idn_u_star,
             "idn_lb": self.idn_lb,
             "idn_ub": self.idn_ub
+        }
+
+    def get_train_batch(self, keep=2 / 3, N_train=10000, noise=0.0):
+        indexes = [int(keep * t.shape[0]) for t in self.idn_ts]
+        idn_Ts = [T[:, 0:i] for T, i in zip(self.idn_Ts, indexes)]
+        idn_Xs = [X[:, 0:i] for X, i in zip(self.idn_Xs, indexes)]
+        idn_exatcs = [E[:, 0:i] for E, i in zip(self.idn_exacts, indexes)]
+
+        idn_t_stars = [T.flatten()[:, None] for T in idn_Ts]
+        idn_x_stars = [X.flatten()[:, None] for X in idn_Xs]
+        idn_u_stars = [U.flatten()[:, None] for U in idn_exatcs]
+
+        idxs = [
+            np.random.choice(idn_t_stars[0].shape[0], N_train, replace=False)
+            for _ in idn_t_stars
+        ]
+        train_ts = [t[i, :] for t, i in zip(idn_t_stars, idxs)]
+        train_xs = [x[i, :] for x, i in zip(idn_x_stars, idxs)]
+        train_us = [u[i, :] for u, i in zip(idn_u_stars, idxs)]
+
+        train_us = [
+            u + noise * np.std(u) * np.random.randn(u.shape[0], u.shape[1])
+            for u in train_us
+        ]
+        return {
+            "train_ts": train_ts,
+            "train_xs": train_xs,
+            "train_us": train_us,
+            "idn_t_stars": idn_t_stars,
+            "idn_u_stars": idn_u_stars,
+            "idn_x_stars": idn_x_stars,
+            "idn_lbs": self.idn_lbs,
+            "idn_ubs": self.idn_ubs
         }
