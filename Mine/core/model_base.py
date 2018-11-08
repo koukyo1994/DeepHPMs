@@ -44,9 +44,9 @@ class BaseHPM:
         self.pde_weights, self.pde_biases = nn.initialize_nn(self.pde_layers)
 
         # TF placeholders
-        self.t_phs = [tf.placeholder(tf.float32), [None, 1]] * len(u_layers)
-        self.u_phs = [tf.placeholder(tf.float32), [None, 1]] * len(u_layers)
-        self.x_phs = [tf.placeholder(tf.float32), [None, 1]] * len(u_layers)
+        self.t_phs = [tf.placeholder(tf.float32, [None, 1])] * len(u_layers)
+        self.u_phs = [tf.placeholder(tf.float32, [None, 1])] * len(u_layers)
+        self.x_phs = [tf.placeholder(tf.float32, [None, 1])] * len(u_layers)
         self.terms_phs = tf.placeholder(tf.float32, [None, pde_layers[0]])
 
         # TF graphs
@@ -57,8 +57,8 @@ class BaseHPM:
         # Loss
         self.loss = tf.reduce_sum(
             sum(
-                map(tf.square, map(lambda x, y: x - y, self.u_preds, self.
-                                   u_phs)) + map(tf.square, self.f_pred)))
+                list(map(tf.square, map(lambda x, y: x - y, self.u_preds, self.
+                                   u_phs))) + list(map(tf.square, self.f_pred))))
 
         # Scipy Optimizer
         self.scipy_optimizer = tf.contrib.opt.ScipyOptimizerInterface(
@@ -85,7 +85,6 @@ class BaseHPM:
 
         def build_nn(H, params, activation):
             return nn.neural_net(H, params[0], params[1], activation)
-
         X = map(lambda a, b: tf.concat([a, b], 1), t, x)
         H = map(init, X, self.idn_lbs, self.idn_ubs)
         u = list(
