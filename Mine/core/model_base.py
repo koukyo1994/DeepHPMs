@@ -100,7 +100,7 @@ class BaseHPM:
         return pde
 
     def identifier_f(self, t, x):
-        us = map(self.idn_net, t, x)
+        us = self.idn_net(t, x)
         u_ts = map(lambda u, t: tf.gradients(u, t)[0], us, t)
         u_xs = map(lambda u, x: tf.gradients(u, x)[0], us, x)
         u_xxs = map(lambda u, x: tf.gradients(u, x)[0], u_xs, x)
