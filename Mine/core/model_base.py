@@ -81,8 +81,7 @@ class BaseHPM:
         # Adam Optimizer
         self.adam_optimizer = tf.train.AdamOptimizer()
         self.adam_optimizer_train = self.adam_optimizer.minimize(
-            self.loss,
-            var_list=unnested + self.pde_weights + self.pde_biases)
+            self.loss, var_list=unnested + self.pde_weights + self.pde_biases)
 
     def idn_net(self, t, x):
         def init(X, idn_lb, idn_ub):
@@ -104,14 +103,16 @@ class BaseHPM:
 
     def identifier_f(self, t, x):
         us = self.idn_net(t, x)
-        u_ts = map(lambda u, t: tf.gradients(u, t)[0], us, t)
-        u_xs = map(lambda u, x: tf.gradients(u, x)[0], us, x)
-        u_xxs = map(lambda u, x: tf.gradients(u, x)[0], list(u_xs), x)
+        u_ts = list(map(lambda u, t: tf.gradients(u, t)[0], us, t))
+        u_xs = list(map(lambda u, x: tf.gradients(u, x)[0], us, x))
+        u_xxs = list(map(lambda u, x: tf.gradients(u, x)[0], list(u_xs), x))
         import ipdb
         ipdb.set_trace()
-        terms = map(lambda u, u_x, u_xxs: tf.concat([u, u_x, u_xxs], 1), list(us),
-                    list(u_xs), list(u_xxs))
-        fs = map(lambda u_t, terms: u_t - self.pde_net(terms), list(u_ts), list(terms))
+        terms = list(
+            map(lambda u, u_x, u_xxs: tf.concat([u, u_x, u_xxs], 1), us, u_xs,
+                u_xxs))
+        fs = list(
+            map(lambda u_t, terms: u_t - self.pde_net(terms), u_ts, terms))
         return fs
 
     def train_idn(self, N_iter, model_path, scipy_opt=False):
