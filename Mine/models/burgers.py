@@ -1,19 +1,11 @@
 import tensorflow as tf
-import numpy as np
-
-from typing import Iterable, TypeVar
 
 from core.model_base import BaseHPM
 
-N = TypeVar("N", np.ndarray)
-
 
 class BurgersHPM(BaseHPM):
-    def __init__(self, idn_lbs: Iterable[N], idn_ubs: Iterable[N], sol_lbs: N,
-                 sol_ubs: N, t: Iterable[N], x: Iterable[N], u: Iterable[N],
-                 tb: Iterable[N], x0: Iterable[N], u0: Iterable[N],
-                 X_f: Iterable[N], layers: Iterable[Iterable[int]],
-                 u_layers: Iterable[Iterable[int]], pde_layers: Iterable[int]):
+    def __init__(self, idn_lbs, idn_ubs, sol_lbs, sol_ubs, t, x, u, tb, x0, u0,
+                 X_f, layers, u_layers, pde_layers):
         super().__init__(self, idn_lbs, idn_ubs, sol_lbs, sol_ubs, t, x, u, tb,
                          x0, u0, X_f, layers, u_layers, pde_layers)
         # Initialization for Identification

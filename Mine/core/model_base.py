@@ -4,22 +4,13 @@ import numpy as np
 import tensorflow as tf
 import core.nn as nn
 
-from typing import Iterable, TypeVar, Tuple, List
-
 from core.log import get_logger
 from config.constants import LOG_PATH, ACTIVATION, INTERVAL
 
-N = TypeVar("N", np.ndarray)
-T = TypeVar("T", tf.Variable)
-P = TypeVar("P", tf.placeholder)
-
 
 class BaseHPM:
-    def __init__(self, idn_lbs: Iterable[N], idn_ubs: Iterable[N], sol_lbs: N,
-                 sol_ubs: N, t: Iterable[N], x: Iterable[N], u: Iterable[N],
-                 tb: Iterable[N], x0: Iterable[N], u0: Iterable[N],
-                 X_f: Iterable[N], layers: Iterable[int],
-                 u_layers: Iterable[Iterable[int]], pde_layers: Iterable[int]):
+    def __init__(self, idn_lbs, idn_ubs, sol_lbs, sol_ubs, t, x, u, tb, x0, u0,
+                 X_f, layers, u_layers, pde_layers):
 
         if not ((len(idn_lbs) == len(idn_ubs)) and (len(idn_ubs) == len(t)) and
                 (len(t) == len(u)) and (len(u) == len(x)) and
@@ -41,8 +32,7 @@ class BaseHPM:
         # Logging Tool
         self.logger = get_logger(LOG_PATH)
 
-    def idn_init(self, t: Iterable[N], x: Iterable[N], u: Iterable[N],
-                 u_layers: Iterable[Iterable[int]], pde_layers: Iterable[int]):
+    def idn_init(self, t, x, u, u_layers, pde_layers):
         # Training Data
         self.t = t
         self.x = x
@@ -53,8 +43,7 @@ class BaseHPM:
         self.pde_layers = pde_layers
 
         # Weights and Biases
-        self.u_params: List[Tuple[List[T]]] = list(
-            map(nn.initialize_nn, self.u_layers))
+        self.u_params = list(map(nn.initialize_nn, self.u_layers))
         self.pde_weights, self.pde_biases = nn.initialize_nn(self.pde_layers)
 
         # TF placeholders
@@ -93,7 +82,7 @@ class BaseHPM:
             self.loss,
             var_list=sum(self.u_params) + self.pde_weights + self.pde_biases)
 
-    def idn_net(self, t: Iterable[P], x: Iterable[P]):
+    def idn_net(self, t, x):
         def init(X, idn_lb, idn_ub):
             return 2. * (X - idn_lb) / (idn_ub - idn_lb) - 1.
 
@@ -111,7 +100,7 @@ class BaseHPM:
                             ACTIVATION)
         return pde
 
-    def identifier_f(self, t: Iterable[P], x: Iterable[P]):
+    def identifier_f(self, t, x):
         pass
 
     def train_idn(self, N_iter, model_path, scipy_opt=False):
