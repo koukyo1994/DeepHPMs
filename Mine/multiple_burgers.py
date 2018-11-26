@@ -43,17 +43,17 @@ if __name__ == "__main__":
                        layers, u_layers, pde_layers)
     model.train_idn(args.niter, "model/saved.model", args.scipyopt)
 
-    idn_t_stars = idn_data["idn_t_stars"]
-    idn_x_stars = idn_data["idn_x_stars"]
-    idn_u_stars = idn_data["idn_u_stars"]
+    # idn_t_stars = idn_data["idn_t_stars"]
+    # idn_x_stars = idn_data["idn_x_stars"]
+    # idn_u_stars = idn_data["idn_u_stars"]
 
-    idn_u_preds, idn_f_preds = model.idn_predict(idn_t_stars, idn_x_stars)
-    idn_error_us = [
-        np.linalg.norm(star - pred, 2) / np.linalg.norm(star, 2)
-        for star, pred in zip(idn_u_stars, idn_u_preds)
-    ]
-    for i, e in enumerate(idn_error_us):
-        model.logger.info(f"Data{i} Error u: {e:.3e}")
+    # idn_u_preds, idn_f_preds = model.idn_predict(idn_t_stars, idn_x_stars)
+    # idn_error_us = [
+    #     np.linalg.norm(star - pred, 2) / np.linalg.norm(star, 2)
+    #     for star, pred in zip(idn_u_stars, idn_u_preds)
+    # ]
+    # for i, e in enumerate(idn_error_us):
+    #     model.logger.info(f"Data{i} Error u: {e:.3e}")
 
     sol_t_star = sol_data["sol_t_star"]
     sol_x_star = sol_data["sol_x_star"]

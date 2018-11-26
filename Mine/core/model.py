@@ -73,7 +73,6 @@ class DeepHPM:
             tf.square(self.u_pred - self.u_placeholder) +
             tf.square(self.f_pred))
         self.f_loss = tf.reduce_sum(tf.square(self.f_pred))
-
         # Scipy Optimizer
         self.scipy_u_optimizer = tf.contrib.opt.ScipyOptimizerInterface(
             self.u_loss,

@@ -60,7 +60,6 @@ class BaseHPM:
                     map(tf.square,
                         map(lambda x, y: x - y, self.u_preds, self.u_phs))) +
                 list(map(tf.square, self.f_pred))))
-
         # Scipy Optimizer
         unnested = []
         for n in self.u_params:
@@ -106,8 +105,6 @@ class BaseHPM:
         u_ts = list(map(lambda u, t: tf.gradients(u, t)[0], us, t))
         u_xs = list(map(lambda u, x: tf.gradients(u, x)[0], us, x))
         u_xxs = list(map(lambda u, x: tf.gradients(u, x)[0], list(u_xs), x))
-        import ipdb
-        ipdb.set_trace()
         terms = list(
             map(lambda u, u_x, u_xxs: tf.concat([u, u_x, u_xxs], 1), us, u_xs,
                 u_xxs))
