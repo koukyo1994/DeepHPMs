@@ -17,12 +17,12 @@ if __name__ == "__main__":
     # filen = "../MyData/burgers_cos.mat"
     
     dataloader = DataLoader(
-        ["../MyData/burgers_cos.mat", "../Data/burgers_sine.mat"],
+        ["../MyData/burgers_cos.mat"],
         "../Data/burgers.mat", 10.0, 8.0)
     sol_data = dataloader.get_solver_data(20000)
     idn_data = dataloader.get_train_batch()
 
-    u_layers = [[2, 50, 50, 50, 50, 1] for _ in range(2)]
+    u_layers = [[2, 50, 50, 50, 50, 1] for _ in range(1)]
     pde_layers = [3, 100, 100, 1]
     layers = [2, 50, 50, 50, 50, 1]
 
