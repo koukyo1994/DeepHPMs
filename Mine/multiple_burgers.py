@@ -14,14 +14,15 @@ if __name__ == "__main__":
     parser.add_argument("--niter", default=10000, type=int)
     parser.add_argument("--scipyopt", default=False)
     args = parser.parse_args()
-
+    # filen = "../MyData/burgers_cos.mat"
+    
     dataloader = DataLoader(
-        ["../Data/burgers.mat", "../MyData/burgers_cos.mat"],
-        "../MyData/burgers_sine.mat", 10.0, 8.0)
+        ["../Data/burgers_sine.mat"],
+        "../Data/burgers.mat", 10.0, 8.0)
     sol_data = dataloader.get_solver_data(20000)
     idn_data = dataloader.get_train_batch()
 
-    u_layers = [[2, 50, 50, 50, 50, 1] for _ in range(2)]
+    u_layers = [[2, 50, 50, 50, 50, 1] for _ in range(1)]
     pde_layers = [3, 100, 100, 1]
     layers = [2, 50, 50, 50, 50, 1]
 
@@ -60,7 +61,7 @@ if __name__ == "__main__":
     sol_u_star = sol_data["sol_u_star"]
 
     model.train_solver(args.niter * 2, args.scipyopt)
-    u_pred, f_pred = model.solver_f_pred(sol_t_star, sol_x_star)
+    u_pred, f_pred = model.solver_predict(sol_t_star, sol_x_star)
     error_u = np.linalg.norm(sol_u_star - u_pred, 2) / np.linalg.norm(
         sol_u_star, 2)
     model.logger.info(f"Error u: {error_u:.3e}")
