@@ -1,0 +1,4205 @@
+[INFO]2018-11-27 18:02:22,106:main:
+                    idn-Adam,
+                    It: 0,
+                    Loss: 7.830e+03,
+                    Time: 0.84
+                    
+[INFO]2018-11-27 18:02:24,937:main:
+                    idn-Adam,
+                    It: 100,
+                    Loss: 7.967e+02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:02:27,529:main:
+                    idn-Adam,
+                    It: 200,
+                    Loss: 2.543e+02,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:02:30,137:main:
+                    idn-Adam,
+                    It: 300,
+                    Loss: 1.713e+02,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:02:32,694:main:
+                    idn-Adam,
+                    It: 400,
+                    Loss: 1.050e+02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:02:35,300:main:
+                    idn-Adam,
+                    It: 500,
+                    Loss: 5.663e+01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:02:37,913:main:
+                    idn-Adam,
+                    It: 600,
+                    Loss: 4.005e+01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:02:40,459:main:
+                    idn-Adam,
+                    It: 700,
+                    Loss: 2.825e+01,
+                    Time: 1.90
+                    
+[INFO]2018-11-27 18:02:42,990:main:
+                    idn-Adam,
+                    It: 800,
+                    Loss: 2.109e+01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:02:45,552:main:
+                    idn-Adam,
+                    It: 900,
+                    Loss: 1.801e+01,
+                    Time: 1.90
+                    
+[INFO]2018-11-27 18:02:48,148:main:
+                    idn-Adam,
+                    It: 1000,
+                    Loss: 1.746e+01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:02:50,701:main:
+                    idn-Adam,
+                    It: 1100,
+                    Loss: 1.163e+01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:02:53,289:main:
+                    idn-Adam,
+                    It: 1200,
+                    Loss: 1.109e+01,
+                    Time: 2.00
+                    
+[INFO]2018-11-27 18:02:55,957:main:
+                    idn-Adam,
+                    It: 1300,
+                    Loss: 1.777e+01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:02:58,512:main:
+                    idn-Adam,
+                    It: 1400,
+                    Loss: 7.486e+00,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:03:01,058:main:
+                    idn-Adam,
+                    It: 1500,
+                    Loss: 7.720e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:03:03,652:main:
+                    idn-Adam,
+                    It: 1600,
+                    Loss: 7.480e+00,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:03:06,258:main:
+                    idn-Adam,
+                    It: 1700,
+                    Loss: 6.937e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:03:08,831:main:
+                    idn-Adam,
+                    It: 1800,
+                    Loss: 5.350e+00,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:03:11,409:main:
+                    idn-Adam,
+                    It: 1900,
+                    Loss: 4.708e+00,
+                    Time: 2.00
+                    
+[INFO]2018-11-27 18:03:13,924:main:
+                    idn-Adam,
+                    It: 2000,
+                    Loss: 6.007e+00,
+                    Time: 1.91
+                    
+[INFO]2018-11-27 18:03:16,547:main:
+                    idn-Adam,
+                    It: 2100,
+                    Loss: 3.528e+00,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:03:19,116:main:
+                    idn-Adam,
+                    It: 2200,
+                    Loss: 3.720e+00,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:03:21,664:main:
+                    idn-Adam,
+                    It: 2300,
+                    Loss: 2.996e+00,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:03:24,229:main:
+                    idn-Adam,
+                    It: 2400,
+                    Loss: 2.781e+00,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:03:26,942:main:
+                    idn-Adam,
+                    It: 2500,
+                    Loss: 2.391e+00,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:03:29,504:main:
+                    idn-Adam,
+                    It: 2600,
+                    Loss: 5.961e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:03:32,091:main:
+                    idn-Adam,
+                    It: 2700,
+                    Loss: 1.846e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:03:34,660:main:
+                    idn-Adam,
+                    It: 2800,
+                    Loss: 1.745e+00,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:03:37,199:main:
+                    idn-Adam,
+                    It: 2900,
+                    Loss: 5.818e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:03:39,743:main:
+                    idn-Adam,
+                    It: 3000,
+                    Loss: 1.456e+00,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:03:42,301:main:
+                    idn-Adam,
+                    It: 3100,
+                    Loss: 1.553e+00,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:03:44,849:main:
+                    idn-Adam,
+                    It: 3200,
+                    Loss: 2.832e+00,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:03:47,468:main:
+                    idn-Adam,
+                    It: 3300,
+                    Loss: 1.787e+00,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:03:49,991:main:
+                    idn-Adam,
+                    It: 3400,
+                    Loss: 1.306e+00,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:03:52,545:main:
+                    idn-Adam,
+                    It: 3500,
+                    Loss: 2.395e+00,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:03:55,121:main:
+                    idn-Adam,
+                    It: 3600,
+                    Loss: 1.128e+00,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:03:57,718:main:
+                    idn-Adam,
+                    It: 3700,
+                    Loss: 1.305e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:04:00,373:main:
+                    idn-Adam,
+                    It: 3800,
+                    Loss: 8.710e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:04:02,962:main:
+                    idn-Adam,
+                    It: 3900,
+                    Loss: 4.029e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:04:05,519:main:
+                    idn-Adam,
+                    It: 4000,
+                    Loss: 9.647e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:04:08,115:main:
+                    idn-Adam,
+                    It: 4100,
+                    Loss: 7.679e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:04:10,651:main:
+                    idn-Adam,
+                    It: 4200,
+                    Loss: 6.085e+00,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:04:13,220:main:
+                    idn-Adam,
+                    It: 4300,
+                    Loss: 3.913e+00,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:04:15,750:main:
+                    idn-Adam,
+                    It: 4400,
+                    Loss: 9.198e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:04:18,340:main:
+                    idn-Adam,
+                    It: 4500,
+                    Loss: 8.120e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:04:20,968:main:
+                    idn-Adam,
+                    It: 4600,
+                    Loss: 9.479e-01,
+                    Time: 2.00
+                    
+[INFO]2018-11-27 18:04:23,563:main:
+                    idn-Adam,
+                    It: 4700,
+                    Loss: 6.321e-01,
+                    Time: 2.00
+                    
+[INFO]2018-11-27 18:04:26,130:main:
+                    idn-Adam,
+                    It: 4800,
+                    Loss: 6.033e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:04:28,691:main:
+                    idn-Adam,
+                    It: 4900,
+                    Loss: 5.444e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:04:31,380:main:
+                    idn-Adam,
+                    It: 5000,
+                    Loss: 5.271e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:04:33,990:main:
+                    idn-Adam,
+                    It: 5100,
+                    Loss: 5.037e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:04:36,620:main:
+                    idn-Adam,
+                    It: 5200,
+                    Loss: 6.471e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:04:39,196:main:
+                    idn-Adam,
+                    It: 5300,
+                    Loss: 2.985e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:04:41,790:main:
+                    idn-Adam,
+                    It: 5400,
+                    Loss: 2.183e+00,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:04:44,451:main:
+                    idn-Adam,
+                    It: 5500,
+                    Loss: 6.626e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:04:46,959:main:
+                    idn-Adam,
+                    It: 5600,
+                    Loss: 2.225e+00,
+                    Time: 1.91
+                    
+[INFO]2018-11-27 18:04:49,523:main:
+                    idn-Adam,
+                    It: 5700,
+                    Loss: 5.212e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:04:52,050:main:
+                    idn-Adam,
+                    It: 5800,
+                    Loss: 5.434e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:04:54,598:main:
+                    idn-Adam,
+                    It: 5900,
+                    Loss: 3.809e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:04:57,176:main:
+                    idn-Adam,
+                    It: 6000,
+                    Loss: 6.150e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:04:59,806:main:
+                    idn-Adam,
+                    It: 6100,
+                    Loss: 4.031e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:05:02,428:main:
+                    idn-Adam,
+                    It: 6200,
+                    Loss: 3.477e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:05:05,159:main:
+                    idn-Adam,
+                    It: 6300,
+                    Loss: 2.110e+00,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:05:07,657:main:
+                    idn-Adam,
+                    It: 6400,
+                    Loss: 3.271e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:05:10,320:main:
+                    idn-Adam,
+                    It: 6500,
+                    Loss: 5.113e-01,
+                    Time: 2.00
+                    
+[INFO]2018-11-27 18:05:12,905:main:
+                    idn-Adam,
+                    It: 6600,
+                    Loss: 1.358e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:05:15,489:main:
+                    idn-Adam,
+                    It: 6700,
+                    Loss: 3.005e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:05:18,053:main:
+                    idn-Adam,
+                    It: 6800,
+                    Loss: 2.983e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:05:20,631:main:
+                    idn-Adam,
+                    It: 6900,
+                    Loss: 3.295e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:05:23,181:main:
+                    idn-Adam,
+                    It: 7000,
+                    Loss: 1.130e+00,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:05:25,749:main:
+                    idn-Adam,
+                    It: 7100,
+                    Loss: 2.701e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:05:28,353:main:
+                    idn-Adam,
+                    It: 7200,
+                    Loss: 2.700e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:05:30,906:main:
+                    idn-Adam,
+                    It: 7300,
+                    Loss: 2.589e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:05:33,546:main:
+                    idn-Adam,
+                    It: 7400,
+                    Loss: 1.928e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:05:36,213:main:
+                    idn-Adam,
+                    It: 7500,
+                    Loss: 3.922e-01,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:05:38,753:main:
+                    idn-Adam,
+                    It: 7600,
+                    Loss: 6.151e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:05:41,344:main:
+                    idn-Adam,
+                    It: 7700,
+                    Loss: 2.488e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:05:43,950:main:
+                    idn-Adam,
+                    It: 7800,
+                    Loss: 3.037e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:05:46,523:main:
+                    idn-Adam,
+                    It: 7900,
+                    Loss: 5.914e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:05:49,130:main:
+                    idn-Adam,
+                    It: 8000,
+                    Loss: 2.791e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:05:51,719:main:
+                    idn-Adam,
+                    It: 8100,
+                    Loss: 2.895e+00,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:05:54,338:main:
+                    idn-Adam,
+                    It: 8200,
+                    Loss: 2.081e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:05:56,889:main:
+                    idn-Adam,
+                    It: 8300,
+                    Loss: 2.605e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:05:59,497:main:
+                    idn-Adam,
+                    It: 8400,
+                    Loss: 2.003e-01,
+                    Time: 2.00
+                    
+[INFO]2018-11-27 18:06:02,016:main:
+                    idn-Adam,
+                    It: 8500,
+                    Loss: 4.679e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:06:04,579:main:
+                    idn-Adam,
+                    It: 8600,
+                    Loss: 1.915e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:06:07,285:main:
+                    idn-Adam,
+                    It: 8700,
+                    Loss: 6.577e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:06:09,889:main:
+                    idn-Adam,
+                    It: 8800,
+                    Loss: 2.340e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:06:12,404:main:
+                    idn-Adam,
+                    It: 8900,
+                    Loss: 6.885e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:06:14,988:main:
+                    idn-Adam,
+                    It: 9000,
+                    Loss: 2.620e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:06:17,533:main:
+                    idn-Adam,
+                    It: 9100,
+                    Loss: 7.465e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:06:20,123:main:
+                    idn-Adam,
+                    It: 9200,
+                    Loss: 2.003e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:06:22,679:main:
+                    idn-Adam,
+                    It: 9300,
+                    Loss: 7.690e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:06:25,309:main:
+                    idn-Adam,
+                    It: 9400,
+                    Loss: 1.858e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:06:27,899:main:
+                    idn-Adam,
+                    It: 9500,
+                    Loss: 1.746e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:06:30,502:main:
+                    idn-Adam,
+                    It: 9600,
+                    Loss: 2.316e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:06:33,042:main:
+                    idn-Adam,
+                    It: 9700,
+                    Loss: 1.627e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:06:35,587:main:
+                    idn-Adam,
+                    It: 9800,
+                    Loss: 1.882e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:06:38,294:main:
+                    idn-Adam,
+                    It: 9900,
+                    Loss: 3.620e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:06:40,941:main:
+                    idn-Adam,
+                    It: 10000,
+                    Loss: 1.474e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:06:43,486:main:
+                    idn-Adam,
+                    It: 10100,
+                    Loss: 1.486e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:06:46,081:main:
+                    idn-Adam,
+                    It: 10200,
+                    Loss: 1.456e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:06:48,666:main:
+                    idn-Adam,
+                    It: 10300,
+                    Loss: 7.642e+00,
+                    Time: 2.00
+                    
+[INFO]2018-11-27 18:06:51,223:main:
+                    idn-Adam,
+                    It: 10400,
+                    Loss: 5.046e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:06:53,853:main:
+                    idn-Adam,
+                    It: 10500,
+                    Loss: 4.072e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:06:56,508:main:
+                    idn-Adam,
+                    It: 10600,
+                    Loss: 3.921e+00,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:06:59,130:main:
+                    idn-Adam,
+                    It: 10700,
+                    Loss: 1.507e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:07:01,707:main:
+                    idn-Adam,
+                    It: 10800,
+                    Loss: 1.305e-01,
+                    Time: 1.91
+                    
+[INFO]2018-11-27 18:07:04,333:main:
+                    idn-Adam,
+                    It: 10900,
+                    Loss: 1.400e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:07:06,873:main:
+                    idn-Adam,
+                    It: 11000,
+                    Loss: 3.165e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:07:09,555:main:
+                    idn-Adam,
+                    It: 11100,
+                    Loss: 2.258e-01,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:07:12,066:main:
+                    idn-Adam,
+                    It: 11200,
+                    Loss: 4.412e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:07:14,647:main:
+                    idn-Adam,
+                    It: 11300,
+                    Loss: 1.209e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:07:17,210:main:
+                    idn-Adam,
+                    It: 11400,
+                    Loss: 1.274e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:07:19,746:main:
+                    idn-Adam,
+                    It: 11500,
+                    Loss: 1.295e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:07:22,268:main:
+                    idn-Adam,
+                    It: 11600,
+                    Loss: 1.201e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:07:24,890:main:
+                    idn-Adam,
+                    It: 11700,
+                    Loss: 1.281e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:07:27,465:main:
+                    idn-Adam,
+                    It: 11800,
+                    Loss: 1.730e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:07:30,094:main:
+                    idn-Adam,
+                    It: 11900,
+                    Loss: 2.634e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:07:32,727:main:
+                    idn-Adam,
+                    It: 12000,
+                    Loss: 1.606e+00,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:07:35,299:main:
+                    idn-Adam,
+                    It: 12100,
+                    Loss: 2.779e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:07:37,863:main:
+                    idn-Adam,
+                    It: 12200,
+                    Loss: 1.799e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:07:40,496:main:
+                    idn-Adam,
+                    It: 12300,
+                    Loss: 1.365e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:07:43,201:main:
+                    idn-Adam,
+                    It: 12400,
+                    Loss: 1.114e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:07:45,766:main:
+                    idn-Adam,
+                    It: 12500,
+                    Loss: 1.069e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:07:48,322:main:
+                    idn-Adam,
+                    It: 12600,
+                    Loss: 1.180e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:07:50,827:main:
+                    idn-Adam,
+                    It: 12700,
+                    Loss: 2.071e+00,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:07:53,387:main:
+                    idn-Adam,
+                    It: 12800,
+                    Loss: 9.343e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:07:56,009:main:
+                    idn-Adam,
+                    It: 12900,
+                    Loss: 4.014e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:07:58,635:main:
+                    idn-Adam,
+                    It: 13000,
+                    Loss: 9.958e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:08:01,255:main:
+                    idn-Adam,
+                    It: 13100,
+                    Loss: 1.746e-01,
+                    Time: 2.00
+                    
+[INFO]2018-11-27 18:08:03,816:main:
+                    idn-Adam,
+                    It: 13200,
+                    Loss: 9.889e-02,
+                    Time: 1.90
+                    
+[INFO]2018-11-27 18:08:06,430:main:
+                    idn-Adam,
+                    It: 13300,
+                    Loss: 1.003e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:08:08,949:main:
+                    idn-Adam,
+                    It: 13400,
+                    Loss: 1.109e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:08:11,542:main:
+                    idn-Adam,
+                    It: 13500,
+                    Loss: 2.309e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:08:14,263:main:
+                    idn-Adam,
+                    It: 13600,
+                    Loss: 1.255e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:08:16,821:main:
+                    idn-Adam,
+                    It: 13700,
+                    Loss: 9.442e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:08:19,380:main:
+                    idn-Adam,
+                    It: 13800,
+                    Loss: 2.123e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:08:21,992:main:
+                    idn-Adam,
+                    It: 13900,
+                    Loss: 3.707e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:08:24,542:main:
+                    idn-Adam,
+                    It: 14000,
+                    Loss: 1.374e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:08:27,113:main:
+                    idn-Adam,
+                    It: 14100,
+                    Loss: 1.386e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:08:29,645:main:
+                    idn-Adam,
+                    It: 14200,
+                    Loss: 1.057e-01,
+                    Time: 1.89
+                    
+[INFO]2018-11-27 18:08:32,256:main:
+                    idn-Adam,
+                    It: 14300,
+                    Loss: 3.731e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:08:34,864:main:
+                    idn-Adam,
+                    It: 14400,
+                    Loss: 4.355e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:08:37,462:main:
+                    idn-Adam,
+                    It: 14500,
+                    Loss: 4.989e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:08:40,035:main:
+                    idn-Adam,
+                    It: 14600,
+                    Loss: 1.677e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:08:42,605:main:
+                    idn-Adam,
+                    It: 14700,
+                    Loss: 1.368e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:08:45,322:main:
+                    idn-Adam,
+                    It: 14800,
+                    Loss: 2.783e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:08:47,956:main:
+                    idn-Adam,
+                    It: 14900,
+                    Loss: 1.704e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:08:50,595:main:
+                    idn-Adam,
+                    It: 15000,
+                    Loss: 9.453e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:08:53,162:main:
+                    idn-Adam,
+                    It: 15100,
+                    Loss: 6.836e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:08:55,746:main:
+                    idn-Adam,
+                    It: 15200,
+                    Loss: 1.689e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:08:58,280:main:
+                    idn-Adam,
+                    It: 15300,
+                    Loss: 3.004e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:09:00,799:main:
+                    idn-Adam,
+                    It: 15400,
+                    Loss: 1.240e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:09:03,315:main:
+                    idn-Adam,
+                    It: 15500,
+                    Loss: 1.358e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:09:05,941:main:
+                    idn-Adam,
+                    It: 15600,
+                    Loss: 3.140e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:09:08,566:main:
+                    idn-Adam,
+                    It: 15700,
+                    Loss: 1.015e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:09:11,095:main:
+                    idn-Adam,
+                    It: 15800,
+                    Loss: 9.359e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:09:13,677:main:
+                    idn-Adam,
+                    It: 15900,
+                    Loss: 1.168e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:09:16,421:main:
+                    idn-Adam,
+                    It: 16000,
+                    Loss: 2.455e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:09:18,993:main:
+                    idn-Adam,
+                    It: 16100,
+                    Loss: 8.314e-02,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:09:21,625:main:
+                    idn-Adam,
+                    It: 16200,
+                    Loss: 8.154e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:09:24,207:main:
+                    idn-Adam,
+                    It: 16300,
+                    Loss: 2.257e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:09:26,767:main:
+                    idn-Adam,
+                    It: 16400,
+                    Loss: 3.040e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:09:29,331:main:
+                    idn-Adam,
+                    It: 16500,
+                    Loss: 6.773e-01,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:09:31,933:main:
+                    idn-Adam,
+                    It: 16600,
+                    Loss: 1.035e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:09:34,523:main:
+                    idn-Adam,
+                    It: 16700,
+                    Loss: 1.549e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:09:37,149:main:
+                    idn-Adam,
+                    It: 16800,
+                    Loss: 9.688e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:09:39,697:main:
+                    idn-Adam,
+                    It: 16900,
+                    Loss: 1.274e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:09:42,292:main:
+                    idn-Adam,
+                    It: 17000,
+                    Loss: 1.491e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:09:44,852:main:
+                    idn-Adam,
+                    It: 17100,
+                    Loss: 7.786e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:09:47,539:main:
+                    idn-Adam,
+                    It: 17200,
+                    Loss: 4.917e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:09:50,178:main:
+                    idn-Adam,
+                    It: 17300,
+                    Loss: 1.054e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:09:52,806:main:
+                    idn-Adam,
+                    It: 17400,
+                    Loss: 2.295e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:09:55,342:main:
+                    idn-Adam,
+                    It: 17500,
+                    Loss: 1.172e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:09:57,885:main:
+                    idn-Adam,
+                    It: 17600,
+                    Loss: 1.424e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:10:00,463:main:
+                    idn-Adam,
+                    It: 17700,
+                    Loss: 2.732e+00,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:10:03,030:main:
+                    idn-Adam,
+                    It: 17800,
+                    Loss: 1.654e+00,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:10:05,622:main:
+                    idn-Adam,
+                    It: 17900,
+                    Loss: 4.173e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:10:08,253:main:
+                    idn-Adam,
+                    It: 18000,
+                    Loss: 4.196e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:10:10,801:main:
+                    idn-Adam,
+                    It: 18100,
+                    Loss: 4.809e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:10:13,340:main:
+                    idn-Adam,
+                    It: 18200,
+                    Loss: 4.882e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:10:15,937:main:
+                    idn-Adam,
+                    It: 18300,
+                    Loss: 2.575e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:10:18,546:main:
+                    idn-Adam,
+                    It: 18400,
+                    Loss: 4.548e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:10:21,222:main:
+                    idn-Adam,
+                    It: 18500,
+                    Loss: 2.581e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:10:23,869:main:
+                    idn-Adam,
+                    It: 18600,
+                    Loss: 2.493e+00,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:10:26,446:main:
+                    idn-Adam,
+                    It: 18700,
+                    Loss: 9.603e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:10:28,983:main:
+                    idn-Adam,
+                    It: 18800,
+                    Loss: 3.149e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:10:31,566:main:
+                    idn-Adam,
+                    It: 18900,
+                    Loss: 1.068e-01,
+                    Time: 1.91
+                    
+[INFO]2018-11-27 18:10:34,192:main:
+                    idn-Adam,
+                    It: 19000,
+                    Loss: 8.412e-02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:10:36,772:main:
+                    idn-Adam,
+                    It: 19100,
+                    Loss: 9.556e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:10:39,292:main:
+                    idn-Adam,
+                    It: 19200,
+                    Loss: 1.107e-01,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:10:41,843:main:
+                    idn-Adam,
+                    It: 19300,
+                    Loss: 1.571e+00,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:10:44,462:main:
+                    idn-Adam,
+                    It: 19400,
+                    Loss: 2.992e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:10:47,057:main:
+                    idn-Adam,
+                    It: 19500,
+                    Loss: 1.246e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:10:49,602:main:
+                    idn-Adam,
+                    It: 19600,
+                    Loss: 1.175e+00,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:10:52,259:main:
+                    idn-Adam,
+                    It: 19700,
+                    Loss: 6.374e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:10:54,759:main:
+                    idn-Adam,
+                    It: 19800,
+                    Loss: 7.773e-01,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:10:57,401:main:
+                    idn-Adam,
+                    It: 19900,
+                    Loss: 8.660e-02,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:10:59,984:main:
+                    idn-Adam,
+                    It: 20000,
+                    Loss: 7.995e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:11:02,579:main:
+                    idn-Adam,
+                    It: 20100,
+                    Loss: 1.508e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:11:05,122:main:
+                    idn-Adam,
+                    It: 20200,
+                    Loss: 2.131e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:11:07,760:main:
+                    idn-Adam,
+                    It: 20300,
+                    Loss: 2.499e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:11:10,347:main:
+                    idn-Adam,
+                    It: 20400,
+                    Loss: 2.897e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:11:12,939:main:
+                    idn-Adam,
+                    It: 20500,
+                    Loss: 1.283e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:11:15,504:main:
+                    idn-Adam,
+                    It: 20600,
+                    Loss: 7.607e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:11:18,051:main:
+                    idn-Adam,
+                    It: 20700,
+                    Loss: 2.212e-01,
+                    Time: 1.90
+                    
+[INFO]2018-11-27 18:11:20,558:main:
+                    idn-Adam,
+                    It: 20800,
+                    Loss: 3.312e-01,
+                    Time: 1.91
+                    
+[INFO]2018-11-27 18:11:23,165:main:
+                    idn-Adam,
+                    It: 20900,
+                    Loss: 2.625e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:11:25,873:main:
+                    idn-Adam,
+                    It: 21000,
+                    Loss: 1.381e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:11:28,484:main:
+                    idn-Adam,
+                    It: 21100,
+                    Loss: 1.079e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:11:31,044:main:
+                    idn-Adam,
+                    It: 21200,
+                    Loss: 1.047e+00,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:11:33,606:main:
+                    idn-Adam,
+                    It: 21300,
+                    Loss: 1.161e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:11:36,165:main:
+                    idn-Adam,
+                    It: 21400,
+                    Loss: 2.036e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:11:38,796:main:
+                    idn-Adam,
+                    It: 21500,
+                    Loss: 6.942e-02,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:11:41,415:main:
+                    idn-Adam,
+                    It: 21600,
+                    Loss: 9.653e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:11:44,004:main:
+                    idn-Adam,
+                    It: 21700,
+                    Loss: 9.991e-02,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:11:46,639:main:
+                    idn-Adam,
+                    It: 21800,
+                    Loss: 1.003e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:11:49,286:main:
+                    idn-Adam,
+                    It: 21900,
+                    Loss: 1.389e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:11:51,925:main:
+                    idn-Adam,
+                    It: 22000,
+                    Loss: 8.369e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:11:54,505:main:
+                    idn-Adam,
+                    It: 22100,
+                    Loss: 3.476e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:11:57,184:main:
+                    idn-Adam,
+                    It: 22200,
+                    Loss: 1.565e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:11:59,748:main:
+                    idn-Adam,
+                    It: 22300,
+                    Loss: 1.346e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:12:02,254:main:
+                    idn-Adam,
+                    It: 22400,
+                    Loss: 7.767e-01,
+                    Time: 1.91
+                    
+[INFO]2018-11-27 18:12:04,835:main:
+                    idn-Adam,
+                    It: 22500,
+                    Loss: 4.815e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:12:07,422:main:
+                    idn-Adam,
+                    It: 22600,
+                    Loss: 2.598e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:12:10,008:main:
+                    idn-Adam,
+                    It: 22700,
+                    Loss: 7.263e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:12:12,538:main:
+                    idn-Adam,
+                    It: 22800,
+                    Loss: 7.134e-01,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:12:15,125:main:
+                    idn-Adam,
+                    It: 22900,
+                    Loss: 6.608e-02,
+                    Time: 2.01
+                    
+[INFO]2018-11-27 18:12:17,688:main:
+                    idn-Adam,
+                    It: 23000,
+                    Loss: 7.675e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:12:20,245:main:
+                    idn-Adam,
+                    It: 23100,
+                    Loss: 7.187e-02,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:12:22,783:main:
+                    idn-Adam,
+                    It: 23200,
+                    Loss: 2.379e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:12:25,378:main:
+                    idn-Adam,
+                    It: 23300,
+                    Loss: 7.696e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:12:28,063:main:
+                    idn-Adam,
+                    It: 23400,
+                    Loss: 7.487e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:12:30,637:main:
+                    idn-Adam,
+                    It: 23500,
+                    Loss: 6.991e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:12:33,262:main:
+                    idn-Adam,
+                    It: 23600,
+                    Loss: 2.645e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:12:35,817:main:
+                    idn-Adam,
+                    It: 23700,
+                    Loss: 5.084e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:12:38,378:main:
+                    idn-Adam,
+                    It: 23800,
+                    Loss: 6.971e-02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:12:41,039:main:
+                    idn-Adam,
+                    It: 23900,
+                    Loss: 3.341e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:12:43,566:main:
+                    idn-Adam,
+                    It: 24000,
+                    Loss: 4.447e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:12:46,122:main:
+                    idn-Adam,
+                    It: 24100,
+                    Loss: 1.104e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:12:48,694:main:
+                    idn-Adam,
+                    It: 24200,
+                    Loss: 1.817e+00,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:12:51,243:main:
+                    idn-Adam,
+                    It: 24300,
+                    Loss: 1.076e+00,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:12:53,889:main:
+                    idn-Adam,
+                    It: 24400,
+                    Loss: 2.983e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:12:56,482:main:
+                    idn-Adam,
+                    It: 24500,
+                    Loss: 7.001e-02,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:12:59,129:main:
+                    idn-Adam,
+                    It: 24600,
+                    Loss: 6.904e-02,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:13:01,761:main:
+                    idn-Adam,
+                    It: 24700,
+                    Loss: 1.848e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:13:04,355:main:
+                    idn-Adam,
+                    It: 24800,
+                    Loss: 7.898e-02,
+                    Time: 2.01
+                    
+[INFO]2018-11-27 18:13:06,960:main:
+                    idn-Adam,
+                    It: 24900,
+                    Loss: 8.283e-02,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:13:09,541:main:
+                    idn-Adam,
+                    It: 25000,
+                    Loss: 7.693e-02,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:13:12,074:main:
+                    idn-Adam,
+                    It: 25100,
+                    Loss: 6.647e-02,
+                    Time: 1.89
+                    
+[INFO]2018-11-27 18:13:14,725:main:
+                    idn-Adam,
+                    It: 25200,
+                    Loss: 2.134e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:13:17,285:main:
+                    idn-Adam,
+                    It: 25300,
+                    Loss: 1.890e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:13:19,856:main:
+                    idn-Adam,
+                    It: 25400,
+                    Loss: 6.669e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:13:22,425:main:
+                    idn-Adam,
+                    It: 25500,
+                    Loss: 4.074e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:13:25,044:main:
+                    idn-Adam,
+                    It: 25600,
+                    Loss: 6.085e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:13:27,596:main:
+                    idn-Adam,
+                    It: 25700,
+                    Loss: 6.587e-02,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:13:30,141:main:
+                    idn-Adam,
+                    It: 25800,
+                    Loss: 7.475e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:13:32,791:main:
+                    idn-Adam,
+                    It: 25900,
+                    Loss: 8.609e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:13:35,383:main:
+                    idn-Adam,
+                    It: 26000,
+                    Loss: 5.806e-02,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:13:37,915:main:
+                    idn-Adam,
+                    It: 26100,
+                    Loss: 6.630e-02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:13:40,509:main:
+                    idn-Adam,
+                    It: 26200,
+                    Loss: 7.601e-02,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:13:43,098:main:
+                    idn-Adam,
+                    It: 26300,
+                    Loss: 1.337e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:13:45,664:main:
+                    idn-Adam,
+                    It: 26400,
+                    Loss: 6.694e-02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:13:48,305:main:
+                    idn-Adam,
+                    It: 26500,
+                    Loss: 2.346e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:13:50,832:main:
+                    idn-Adam,
+                    It: 26600,
+                    Loss: 3.614e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:13:53,423:main:
+                    idn-Adam,
+                    It: 26700,
+                    Loss: 1.793e+00,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:13:56,021:main:
+                    idn-Adam,
+                    It: 26800,
+                    Loss: 2.792e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:13:58,642:main:
+                    idn-Adam,
+                    It: 26900,
+                    Loss: 9.607e-02,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:14:01,257:main:
+                    idn-Adam,
+                    It: 27000,
+                    Loss: 1.513e-01,
+                    Time: 2.00
+                    
+[INFO]2018-11-27 18:14:03,915:main:
+                    idn-Adam,
+                    It: 27100,
+                    Loss: 6.092e-02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:14:06,461:main:
+                    idn-Adam,
+                    It: 27200,
+                    Loss: 5.653e-01,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:14:09,018:main:
+                    idn-Adam,
+                    It: 27300,
+                    Loss: 9.233e-02,
+                    Time: 1.92
+                    
+[INFO]2018-11-27 18:14:11,606:main:
+                    idn-Adam,
+                    It: 27400,
+                    Loss: 3.461e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:14:14,204:main:
+                    idn-Adam,
+                    It: 27500,
+                    Loss: 6.382e-02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:14:16,774:main:
+                    idn-Adam,
+                    It: 27600,
+                    Loss: 1.339e+00,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:14:19,356:main:
+                    idn-Adam,
+                    It: 27700,
+                    Loss: 7.496e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:14:21,896:main:
+                    idn-Adam,
+                    It: 27800,
+                    Loss: 2.592e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:14:24,515:main:
+                    idn-Adam,
+                    It: 27900,
+                    Loss: 8.908e-02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:14:27,119:main:
+                    idn-Adam,
+                    It: 28000,
+                    Loss: 9.634e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:14:29,750:main:
+                    idn-Adam,
+                    It: 28100,
+                    Loss: 7.192e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:14:32,316:main:
+                    idn-Adam,
+                    It: 28200,
+                    Loss: 5.635e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:14:34,950:main:
+                    idn-Adam,
+                    It: 28300,
+                    Loss: 9.387e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:14:37,595:main:
+                    idn-Adam,
+                    It: 28400,
+                    Loss: 8.189e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:14:40,211:main:
+                    idn-Adam,
+                    It: 28500,
+                    Loss: 6.724e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:14:42,814:main:
+                    idn-Adam,
+                    It: 28600,
+                    Loss: 1.407e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:14:45,424:main:
+                    idn-Adam,
+                    It: 28700,
+                    Loss: 8.744e-02,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:14:48,022:main:
+                    idn-Adam,
+                    It: 28800,
+                    Loss: 1.380e+00,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:14:50,578:main:
+                    idn-Adam,
+                    It: 28900,
+                    Loss: 8.871e-02,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:14:53,168:main:
+                    idn-Adam,
+                    It: 29000,
+                    Loss: 9.705e-02,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:14:55,741:main:
+                    idn-Adam,
+                    It: 29100,
+                    Loss: 1.360e-01,
+                    Time: 1.96
+                    
+[INFO]2018-11-27 18:14:58,350:main:
+                    idn-Adam,
+                    It: 29200,
+                    Loss: 1.297e-01,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:15:00,963:main:
+                    idn-Adam,
+                    It: 29300,
+                    Loss: 3.772e-01,
+                    Time: 1.99
+                    
+[INFO]2018-11-27 18:15:03,542:main:
+                    idn-Adam,
+                    It: 29400,
+                    Loss: 1.001e-01,
+                    Time: 1.94
+                    
+[INFO]2018-11-27 18:15:06,136:main:
+                    idn-Adam,
+                    It: 29500,
+                    Loss: 7.489e-02,
+                    Time: 1.97
+                    
+[INFO]2018-11-27 18:15:08,856:main:
+                    idn-Adam,
+                    It: 29600,
+                    Loss: 6.020e-02,
+                    Time: 1.95
+                    
+[INFO]2018-11-27 18:15:11,448:main:
+                    idn-Adam,
+                    It: 29700,
+                    Loss: 9.469e-01,
+                    Time: 1.93
+                    
+[INFO]2018-11-27 18:15:14,099:main:
+                    idn-Adam,
+                    It: 29800,
+                    Loss: 7.517e-02,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:15:16,708:main:
+                    idn-Adam,
+                    It: 29900,
+                    Loss: 1.070e-01,
+                    Time: 1.98
+                    
+[INFO]2018-11-27 18:15:19,845:main:'L-BFGS-B' Optimizer Loss: 5.824e-02
+[INFO]2018-11-27 18:16:22,352:main:'L-BFGS-B' Optimizer Loss: 1.164e-02
+[INFO]2018-11-27 18:18:22,656:main:'L-BFGS-B' Optimizer Loss: 2.328e-03
+[INFO]2018-11-27 18:22:37,232:main:'L-BFGS-B' Optimizer Loss: 4.656e-04
+[INFO]2018-11-27 18:23:01,166:main:
+                    solver, It: 10,
+                    Loss: 1.533e+03,
+                    Time: 0.60
+[INFO]2018-11-27 18:23:02,899:main:
+                    solver, It: 110,
+                    Loss: 3.466e+02,
+                    Time: 1.73
+[INFO]2018-11-27 18:23:04,675:main:
+                    solver, It: 210,
+                    Loss: 2.941e+02,
+                    Time: 1.77
+[INFO]2018-11-27 18:23:06,420:main:
+                    solver, It: 310,
+                    Loss: 1.301e+02,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:08,159:main:
+                    solver, It: 410,
+                    Loss: 6.725e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:23:09,868:main:
+                    solver, It: 510,
+                    Loss: 5.239e+01,
+                    Time: 1.70
+[INFO]2018-11-27 18:23:11,613:main:
+                    solver, It: 610,
+                    Loss: 4.498e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:13,365:main:
+                    solver, It: 710,
+                    Loss: 3.770e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:15,091:main:
+                    solver, It: 810,
+                    Loss: 3.371e+01,
+                    Time: 1.72
+[INFO]2018-11-27 18:23:16,825:main:
+                    solver, It: 910,
+                    Loss: 2.977e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:23:18,576:main:
+                    solver, It: 1010,
+                    Loss: 2.683e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:20,319:main:
+                    solver, It: 1110,
+                    Loss: 2.430e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:22,068:main:
+                    solver, It: 1210,
+                    Loss: 2.243e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:23,830:main:
+                    solver, It: 1310,
+                    Loss: 2.118e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:23:25,587:main:
+                    solver, It: 1410,
+                    Loss: 2.027e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:23:27,331:main:
+                    solver, It: 1510,
+                    Loss: 1.971e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:29,088:main:
+                    solver, It: 1610,
+                    Loss: 2.062e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:23:30,869:main:
+                    solver, It: 1710,
+                    Loss: 1.890e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:23:32,626:main:
+                    solver, It: 1810,
+                    Loss: 1.856e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:23:34,361:main:
+                    solver, It: 1910,
+                    Loss: 1.827e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:23:36,137:main:
+                    solver, It: 2010,
+                    Loss: 1.797e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:23:37,881:main:
+                    solver, It: 2110,
+                    Loss: 1.771e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:39,628:main:
+                    solver, It: 2210,
+                    Loss: 1.743e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:41,362:main:
+                    solver, It: 2310,
+                    Loss: 1.720e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:23:43,142:main:
+                    solver, It: 2410,
+                    Loss: 1.694e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:23:44,909:main:
+                    solver, It: 2510,
+                    Loss: 1.674e+01,
+                    Time: 1.76
+[INFO]2018-11-27 18:23:46,656:main:
+                    solver, It: 2610,
+                    Loss: 1.652e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:48,389:main:
+                    solver, It: 2710,
+                    Loss: 1.633e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:23:50,184:main:
+                    solver, It: 2810,
+                    Loss: 1.935e+01,
+                    Time: 1.79
+[INFO]2018-11-27 18:23:51,940:main:
+                    solver, It: 2910,
+                    Loss: 1.598e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:23:53,697:main:
+                    solver, It: 3010,
+                    Loss: 1.705e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:23:55,454:main:
+                    solver, It: 3110,
+                    Loss: 1.568e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:23:57,205:main:
+                    solver, It: 3210,
+                    Loss: 1.553e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:23:58,919:main:
+                    solver, It: 3310,
+                    Loss: 1.541e+01,
+                    Time: 1.71
+[INFO]2018-11-27 18:24:00,640:main:
+                    solver, It: 3410,
+                    Loss: 1.527e+01,
+                    Time: 1.71
+[INFO]2018-11-27 18:24:02,357:main:
+                    solver, It: 3510,
+                    Loss: 1.525e+01,
+                    Time: 1.71
+[INFO]2018-11-27 18:24:04,138:main:
+                    solver, It: 3610,
+                    Loss: 1.503e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:24:05,928:main:
+                    solver, It: 3710,
+                    Loss: 2.017e+01,
+                    Time: 1.78
+[INFO]2018-11-27 18:24:07,704:main:
+                    solver, It: 3810,
+                    Loss: 1.481e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:24:09,449:main:
+                    solver, It: 3910,
+                    Loss: 1.469e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:24:11,194:main:
+                    solver, It: 4010,
+                    Loss: 1.465e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:24:12,967:main:
+                    solver, It: 4110,
+                    Loss: 1.450e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:24:14,711:main:
+                    solver, It: 4210,
+                    Loss: 1.439e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:24:16,448:main:
+                    solver, It: 4310,
+                    Loss: 1.434e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:24:18,250:main:
+                    solver, It: 4410,
+                    Loss: 1.420e+01,
+                    Time: 1.80
+[INFO]2018-11-27 18:24:19,992:main:
+                    solver, It: 4510,
+                    Loss: 1.412e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:24:21,778:main:
+                    solver, It: 4610,
+                    Loss: 1.400e+01,
+                    Time: 1.78
+[INFO]2018-11-27 18:24:23,515:main:
+                    solver, It: 4710,
+                    Loss: 1.393e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:24:25,232:main:
+                    solver, It: 4810,
+                    Loss: 1.381e+01,
+                    Time: 1.71
+[INFO]2018-11-27 18:24:26,955:main:
+                    solver, It: 4910,
+                    Loss: 1.381e+01,
+                    Time: 1.72
+[INFO]2018-11-27 18:24:28,690:main:
+                    solver, It: 5010,
+                    Loss: 1.363e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:24:30,431:main:
+                    solver, It: 5110,
+                    Loss: 1.353e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:24:32,152:main:
+                    solver, It: 5210,
+                    Loss: 1.345e+01,
+                    Time: 1.71
+[INFO]2018-11-27 18:24:33,940:main:
+                    solver, It: 5310,
+                    Loss: 1.337e+01,
+                    Time: 1.78
+[INFO]2018-11-27 18:24:35,725:main:
+                    solver, It: 5410,
+                    Loss: 1.329e+01,
+                    Time: 1.78
+[INFO]2018-11-27 18:24:37,471:main:
+                    solver, It: 5510,
+                    Loss: 1.320e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:24:39,220:main:
+                    solver, It: 5610,
+                    Loss: 1.322e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:24:40,921:main:
+                    solver, It: 5710,
+                    Loss: 1.306e+01,
+                    Time: 1.69
+[INFO]2018-11-27 18:24:42,693:main:
+                    solver, It: 5810,
+                    Loss: 1.309e+01,
+                    Time: 1.76
+[INFO]2018-11-27 18:24:44,488:main:
+                    solver, It: 5910,
+                    Loss: 1.292e+01,
+                    Time: 1.79
+[INFO]2018-11-27 18:24:46,265:main:
+                    solver, It: 6010,
+                    Loss: 1.285e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:24:47,983:main:
+                    solver, It: 6110,
+                    Loss: 1.279e+01,
+                    Time: 1.71
+[INFO]2018-11-27 18:24:49,761:main:
+                    solver, It: 6210,
+                    Loss: 1.271e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:24:51,531:main:
+                    solver, It: 6310,
+                    Loss: 1.273e+01,
+                    Time: 1.76
+[INFO]2018-11-27 18:24:53,288:main:
+                    solver, It: 6410,
+                    Loss: 1.257e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:24:55,028:main:
+                    solver, It: 6510,
+                    Loss: 1.250e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:24:56,785:main:
+                    solver, It: 6610,
+                    Loss: 1.243e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:24:58,547:main:
+                    solver, It: 6710,
+                    Loss: 1.236e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:00,276:main:
+                    solver, It: 6810,
+                    Loss: 1.380e+01,
+                    Time: 1.72
+[INFO]2018-11-27 18:25:02,030:main:
+                    solver, It: 6910,
+                    Loss: 1.221e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:03,780:main:
+                    solver, It: 7010,
+                    Loss: 1.214e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:25:05,485:main:
+                    solver, It: 7110,
+                    Loss: 1.207e+01,
+                    Time: 1.70
+[INFO]2018-11-27 18:25:07,243:main:
+                    solver, It: 7210,
+                    Loss: 1.198e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:08,998:main:
+                    solver, It: 7310,
+                    Loss: 1.191e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:10,775:main:
+                    solver, It: 7410,
+                    Loss: 1.181e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:25:12,542:main:
+                    solver, It: 7510,
+                    Loss: 1.172e+01,
+                    Time: 1.76
+[INFO]2018-11-27 18:25:14,310:main:
+                    solver, It: 7610,
+                    Loss: 1.162e+01,
+                    Time: 1.76
+[INFO]2018-11-27 18:25:16,034:main:
+                    solver, It: 7710,
+                    Loss: 1.152e+01,
+                    Time: 1.72
+[INFO]2018-11-27 18:25:17,795:main:
+                    solver, It: 7810,
+                    Loss: 1.140e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:19,530:main:
+                    solver, It: 7910,
+                    Loss: 1.138e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:25:21,303:main:
+                    solver, It: 8010,
+                    Loss: 1.116e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:25:23,043:main:
+                    solver, It: 8110,
+                    Loss: 1.103e+01,
+                    Time: 1.73
+[INFO]2018-11-27 18:25:24,767:main:
+                    solver, It: 8210,
+                    Loss: 1.088e+01,
+                    Time: 1.72
+[INFO]2018-11-27 18:25:26,530:main:
+                    solver, It: 8310,
+                    Loss: 1.069e+01,
+                    Time: 1.76
+[INFO]2018-11-27 18:25:28,283:main:
+                    solver, It: 8410,
+                    Loss: 1.047e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:30,041:main:
+                    solver, It: 8510,
+                    Loss: 1.022e+01,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:31,819:main:
+                    solver, It: 8610,
+                    Loss: 1.004e+01,
+                    Time: 1.77
+[INFO]2018-11-27 18:25:33,587:main:
+                    solver, It: 8710,
+                    Loss: 9.851e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:25:35,299:main:
+                    solver, It: 8810,
+                    Loss: 9.705e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:25:37,090:main:
+                    solver, It: 8910,
+                    Loss: 9.576e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:25:38,887:main:
+                    solver, It: 9010,
+                    Loss: 9.492e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:25:40,647:main:
+                    solver, It: 9110,
+                    Loss: 9.301e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:42,409:main:
+                    solver, It: 9210,
+                    Loss: 1.043e+01,
+                    Time: 1.76
+[INFO]2018-11-27 18:25:44,161:main:
+                    solver, It: 9310,
+                    Loss: 9.141e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:45,897:main:
+                    solver, It: 9410,
+                    Loss: 9.004e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:25:47,647:main:
+                    solver, It: 9510,
+                    Loss: 1.077e+01,
+                    Time: 1.74
+[INFO]2018-11-27 18:25:49,402:main:
+                    solver, It: 9610,
+                    Loss: 8.762e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:51,200:main:
+                    solver, It: 9710,
+                    Loss: 8.624e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:25:52,945:main:
+                    solver, It: 9810,
+                    Loss: 8.421e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:25:54,723:main:
+                    solver, It: 9910,
+                    Loss: 8.239e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:25:56,414:main:
+                    solver, It: 10010,
+                    Loss: 8.059e+00,
+                    Time: 1.68
+[INFO]2018-11-27 18:25:58,169:main:
+                    solver, It: 10110,
+                    Loss: 8.677e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:25:59,939:main:
+                    solver, It: 10210,
+                    Loss: 7.767e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:26:01,704:main:
+                    solver, It: 10310,
+                    Loss: 7.812e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:26:03,477:main:
+                    solver, It: 10410,
+                    Loss: 8.607e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:26:05,184:main:
+                    solver, It: 10510,
+                    Loss: 7.920e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:26:06,973:main:
+                    solver, It: 10610,
+                    Loss: 7.348e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:26:08,751:main:
+                    solver, It: 10710,
+                    Loss: 7.257e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:26:10,478:main:
+                    solver, It: 10810,
+                    Loss: 7.954e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:26:12,239:main:
+                    solver, It: 10910,
+                    Loss: 7.156e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:26:13,977:main:
+                    solver, It: 11010,
+                    Loss: 7.008e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:26:15,721:main:
+                    solver, It: 11110,
+                    Loss: 6.988e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:26:17,487:main:
+                    solver, It: 11210,
+                    Loss: 6.832e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:26:19,266:main:
+                    solver, It: 11310,
+                    Loss: 6.849e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:26:21,044:main:
+                    solver, It: 11410,
+                    Loss: 6.922e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:26:22,800:main:
+                    solver, It: 11510,
+                    Loss: 7.108e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:26:24,557:main:
+                    solver, It: 11610,
+                    Loss: 6.720e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:26:26,301:main:
+                    solver, It: 11710,
+                    Loss: 6.694e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:26:28,035:main:
+                    solver, It: 11810,
+                    Loss: 6.551e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:26:29,813:main:
+                    solver, It: 11910,
+                    Loss: 6.496e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:26:31,563:main:
+                    solver, It: 12010,
+                    Loss: 6.573e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:26:33,329:main:
+                    solver, It: 12110,
+                    Loss: 6.709e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:26:35,072:main:
+                    solver, It: 12210,
+                    Loss: 6.512e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:26:36,811:main:
+                    solver, It: 12310,
+                    Loss: 6.414e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:26:38,595:main:
+                    solver, It: 12410,
+                    Loss: 6.193e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:26:40,347:main:
+                    solver, It: 12510,
+                    Loss: 6.456e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:26:42,100:main:
+                    solver, It: 12610,
+                    Loss: 6.135e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:26:43,849:main:
+                    solver, It: 12710,
+                    Loss: 6.098e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:26:45,610:main:
+                    solver, It: 12810,
+                    Loss: 5.990e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:26:47,406:main:
+                    solver, It: 12910,
+                    Loss: 5.966e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:26:49,150:main:
+                    solver, It: 13010,
+                    Loss: 5.892e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:26:50,903:main:
+                    solver, It: 13110,
+                    Loss: 5.857e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:26:52,695:main:
+                    solver, It: 13210,
+                    Loss: 5.842e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:26:54,475:main:
+                    solver, It: 13310,
+                    Loss: 5.899e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:26:56,247:main:
+                    solver, It: 13410,
+                    Loss: 5.780e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:26:57,975:main:
+                    solver, It: 13510,
+                    Loss: 5.740e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:26:59,704:main:
+                    solver, It: 13610,
+                    Loss: 5.801e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:27:01,449:main:
+                    solver, It: 13710,
+                    Loss: 6.303e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:27:03,200:main:
+                    solver, It: 13810,
+                    Loss: 6.149e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:27:04,974:main:
+                    solver, It: 13910,
+                    Loss: 5.896e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:27:06,744:main:
+                    solver, It: 14010,
+                    Loss: 5.651e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:27:08,491:main:
+                    solver, It: 14110,
+                    Loss: 5.752e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:27:10,245:main:
+                    solver, It: 14210,
+                    Loss: 5.425e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:27:11,956:main:
+                    solver, It: 14310,
+                    Loss: 5.868e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:27:13,681:main:
+                    solver, It: 14410,
+                    Loss: 5.478e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:27:15,438:main:
+                    solver, It: 14510,
+                    Loss: 5.487e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:27:17,232:main:
+                    solver, It: 14610,
+                    Loss: 5.261e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:27:18,998:main:
+                    solver, It: 14710,
+                    Loss: 5.758e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:27:20,752:main:
+                    solver, It: 14810,
+                    Loss: 5.225e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:27:22,525:main:
+                    solver, It: 14910,
+                    Loss: 5.198e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:27:24,253:main:
+                    solver, It: 15010,
+                    Loss: 5.410e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:27:26,030:main:
+                    solver, It: 15110,
+                    Loss: 5.128e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:27:27,808:main:
+                    solver, It: 15210,
+                    Loss: 5.311e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:27:29,586:main:
+                    solver, It: 15310,
+                    Loss: 5.246e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:27:31,330:main:
+                    solver, It: 15410,
+                    Loss: 5.234e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:27:33,105:main:
+                    solver, It: 15510,
+                    Loss: 5.020e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:27:34,891:main:
+                    solver, It: 15610,
+                    Loss: 5.154e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:27:36,639:main:
+                    solver, It: 15710,
+                    Loss: 4.917e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:27:38,404:main:
+                    solver, It: 15810,
+                    Loss: 4.941e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:27:40,150:main:
+                    solver, It: 15910,
+                    Loss: 5.200e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:27:41,923:main:
+                    solver, It: 16010,
+                    Loss: 4.928e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:27:43,642:main:
+                    solver, It: 16110,
+                    Loss: 5.015e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:27:45,376:main:
+                    solver, It: 16210,
+                    Loss: 4.830e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:27:47,143:main:
+                    solver, It: 16310,
+                    Loss: 4.957e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:27:48,940:main:
+                    solver, It: 16410,
+                    Loss: 4.798e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:27:50,681:main:
+                    solver, It: 16510,
+                    Loss: 4.990e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:27:52,442:main:
+                    solver, It: 16610,
+                    Loss: 4.807e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:27:54,193:main:
+                    solver, It: 16710,
+                    Loss: 4.864e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:27:55,961:main:
+                    solver, It: 16810,
+                    Loss: 4.777e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:27:57,723:main:
+                    solver, It: 16910,
+                    Loss: 4.492e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:27:59,455:main:
+                    solver, It: 17010,
+                    Loss: 4.320e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:28:01,182:main:
+                    solver, It: 17110,
+                    Loss: 4.396e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:28:02,958:main:
+                    solver, It: 17210,
+                    Loss: 4.373e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:28:04,687:main:
+                    solver, It: 17310,
+                    Loss: 4.244e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:28:06,459:main:
+                    solver, It: 17410,
+                    Loss: 4.534e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:28:08,219:main:
+                    solver, It: 17510,
+                    Loss: 4.435e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:28:10,000:main:
+                    solver, It: 17610,
+                    Loss: 4.291e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:28:11,744:main:
+                    solver, It: 17710,
+                    Loss: 4.339e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:28:13,479:main:
+                    solver, It: 17810,
+                    Loss: 4.239e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:28:15,291:main:
+                    solver, It: 17910,
+                    Loss: 4.172e+00,
+                    Time: 1.81
+[INFO]2018-11-27 18:28:17,030:main:
+                    solver, It: 18010,
+                    Loss: 4.334e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:28:18,807:main:
+                    solver, It: 18110,
+                    Loss: 4.211e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:28:20,571:main:
+                    solver, It: 18210,
+                    Loss: 4.191e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:28:22,337:main:
+                    solver, It: 18310,
+                    Loss: 4.243e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:28:24,087:main:
+                    solver, It: 18410,
+                    Loss: 4.116e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:28:25,825:main:
+                    solver, It: 18510,
+                    Loss: 4.168e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:28:27,579:main:
+                    solver, It: 18610,
+                    Loss: 4.264e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:28:29,321:main:
+                    solver, It: 18710,
+                    Loss: 4.367e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:28:31,025:main:
+                    solver, It: 18810,
+                    Loss: 3.692e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:28:32,774:main:
+                    solver, It: 18910,
+                    Loss: 3.762e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:28:34,516:main:
+                    solver, It: 19010,
+                    Loss: 3.600e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:28:36,251:main:
+                    solver, It: 19110,
+                    Loss: 3.689e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:28:37,953:main:
+                    solver, It: 19210,
+                    Loss: 3.720e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:28:39,715:main:
+                    solver, It: 19310,
+                    Loss: 3.632e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:28:41,486:main:
+                    solver, It: 19410,
+                    Loss: 3.506e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:28:43,261:main:
+                    solver, It: 19510,
+                    Loss: 3.471e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:28:45,041:main:
+                    solver, It: 19610,
+                    Loss: 3.586e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:28:46,794:main:
+                    solver, It: 19710,
+                    Loss: 3.781e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:28:48,542:main:
+                    solver, It: 19810,
+                    Loss: 3.581e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:28:50,280:main:
+                    solver, It: 19910,
+                    Loss: 3.508e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:28:52,058:main:
+                    solver, It: 20010,
+                    Loss: 3.423e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:28:53,804:main:
+                    solver, It: 20110,
+                    Loss: 3.443e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:28:55,581:main:
+                    solver, It: 20210,
+                    Loss: 3.555e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:28:57,296:main:
+                    solver, It: 20310,
+                    Loss: 3.465e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:28:59,056:main:
+                    solver, It: 20410,
+                    Loss: 3.325e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:29:00,835:main:
+                    solver, It: 20510,
+                    Loss: 3.411e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:29:02,604:main:
+                    solver, It: 20610,
+                    Loss: 3.423e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:29:04,360:main:
+                    solver, It: 20710,
+                    Loss: 3.505e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:29:06,116:main:
+                    solver, It: 20810,
+                    Loss: 3.591e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:29:07,850:main:
+                    solver, It: 20910,
+                    Loss: 3.414e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:29:09,588:main:
+                    solver, It: 21010,
+                    Loss: 3.274e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:29:11,328:main:
+                    solver, It: 21110,
+                    Loss: 3.253e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:29:13,122:main:
+                    solver, It: 21210,
+                    Loss: 3.263e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:29:14,892:main:
+                    solver, It: 21310,
+                    Loss: 3.271e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:29:16,633:main:
+                    solver, It: 21410,
+                    Loss: 3.210e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:29:18,404:main:
+                    solver, It: 21510,
+                    Loss: 3.243e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:29:20,172:main:
+                    solver, It: 21610,
+                    Loss: 3.186e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:29:21,937:main:
+                    solver, It: 21710,
+                    Loss: 3.188e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:29:23,706:main:
+                    solver, It: 21810,
+                    Loss: 3.507e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:29:25,427:main:
+                    solver, It: 21910,
+                    Loss: 3.213e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:29:27,175:main:
+                    solver, It: 22010,
+                    Loss: 3.234e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:29:28,955:main:
+                    solver, It: 22110,
+                    Loss: 3.527e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:29:30,698:main:
+                    solver, It: 22210,
+                    Loss: 3.396e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:29:32,414:main:
+                    solver, It: 22310,
+                    Loss: 3.274e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:29:34,136:main:
+                    solver, It: 22410,
+                    Loss: 3.241e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:29:35,892:main:
+                    solver, It: 22510,
+                    Loss: 3.174e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:29:37,625:main:
+                    solver, It: 22610,
+                    Loss: 3.142e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:29:39,370:main:
+                    solver, It: 22710,
+                    Loss: 3.385e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:29:41,141:main:
+                    solver, It: 22810,
+                    Loss: 3.375e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:29:42,949:main:
+                    solver, It: 22910,
+                    Loss: 3.426e+00,
+                    Time: 1.80
+[INFO]2018-11-27 18:29:44,711:main:
+                    solver, It: 23010,
+                    Loss: 3.236e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:29:46,498:main:
+                    solver, It: 23110,
+                    Loss: 3.251e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:29:48,249:main:
+                    solver, It: 23210,
+                    Loss: 3.097e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:29:49,969:main:
+                    solver, It: 23310,
+                    Loss: 3.080e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:29:51,712:main:
+                    solver, It: 23410,
+                    Loss: 3.227e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:29:53,459:main:
+                    solver, It: 23510,
+                    Loss: 3.072e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:29:55,210:main:
+                    solver, It: 23610,
+                    Loss: 3.083e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:29:56,968:main:
+                    solver, It: 23710,
+                    Loss: 3.130e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:29:58,753:main:
+                    solver, It: 23810,
+                    Loss: 3.041e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:30:00,495:main:
+                    solver, It: 23910,
+                    Loss: 3.411e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:30:02,304:main:
+                    solver, It: 24010,
+                    Loss: 3.050e+00,
+                    Time: 1.80
+[INFO]2018-11-27 18:30:04,066:main:
+                    solver, It: 24110,
+                    Loss: 3.268e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:30:05,839:main:
+                    solver, It: 24210,
+                    Loss: 3.144e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:30:07,605:main:
+                    solver, It: 24310,
+                    Loss: 3.225e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:30:09,359:main:
+                    solver, It: 24410,
+                    Loss: 3.056e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:30:11,119:main:
+                    solver, It: 24510,
+                    Loss: 3.060e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:30:12,850:main:
+                    solver, It: 24610,
+                    Loss: 3.286e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:30:14,587:main:
+                    solver, It: 24710,
+                    Loss: 3.012e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:30:16,296:main:
+                    solver, It: 24810,
+                    Loss: 3.067e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:30:18,042:main:
+                    solver, It: 24910,
+                    Loss: 2.995e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:30:19,803:main:
+                    solver, It: 25010,
+                    Loss: 3.232e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:30:21,559:main:
+                    solver, It: 25110,
+                    Loss: 3.121e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:30:23,299:main:
+                    solver, It: 25210,
+                    Loss: 3.012e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:30:25,057:main:
+                    solver, It: 25310,
+                    Loss: 3.243e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:30:26,838:main:
+                    solver, It: 25410,
+                    Loss: 3.094e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:30:28,586:main:
+                    solver, It: 25510,
+                    Loss: 3.133e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:30:30,328:main:
+                    solver, It: 25610,
+                    Loss: 3.138e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:30:32,100:main:
+                    solver, It: 25710,
+                    Loss: 3.023e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:30:33,900:main:
+                    solver, It: 25810,
+                    Loss: 3.573e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:30:35,652:main:
+                    solver, It: 25910,
+                    Loss: 2.975e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:30:37,428:main:
+                    solver, It: 26010,
+                    Loss: 3.127e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:30:39,188:main:
+                    solver, It: 26110,
+                    Loss: 3.196e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:30:40,972:main:
+                    solver, It: 26210,
+                    Loss: 3.001e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:30:42,774:main:
+                    solver, It: 26310,
+                    Loss: 3.123e+00,
+                    Time: 1.80
+[INFO]2018-11-27 18:30:44,523:main:
+                    solver, It: 26410,
+                    Loss: 3.143e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:30:46,241:main:
+                    solver, It: 26510,
+                    Loss: 3.126e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:30:47,997:main:
+                    solver, It: 26610,
+                    Loss: 3.023e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:30:49,735:main:
+                    solver, It: 26710,
+                    Loss: 3.029e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:30:51,526:main:
+                    solver, It: 26810,
+                    Loss: 3.152e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:30:53,295:main:
+                    solver, It: 26910,
+                    Loss: 3.137e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:30:55,021:main:
+                    solver, It: 27010,
+                    Loss: 3.084e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:30:56,765:main:
+                    solver, It: 27110,
+                    Loss: 2.975e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:30:58,471:main:
+                    solver, It: 27210,
+                    Loss: 3.026e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:31:00,225:main:
+                    solver, It: 27310,
+                    Loss: 2.963e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:31:01,969:main:
+                    solver, It: 27410,
+                    Loss: 3.057e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:31:03,751:main:
+                    solver, It: 27510,
+                    Loss: 3.021e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:31:05,535:main:
+                    solver, It: 27610,
+                    Loss: 2.981e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:31:07,296:main:
+                    solver, It: 27710,
+                    Loss: 3.048e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:31:09,070:main:
+                    solver, It: 27810,
+                    Loss: 2.925e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:31:10,799:main:
+                    solver, It: 27910,
+                    Loss: 2.949e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:31:12,558:main:
+                    solver, It: 28010,
+                    Loss: 3.091e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:31:14,326:main:
+                    solver, It: 28110,
+                    Loss: 3.071e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:31:16,037:main:
+                    solver, It: 28210,
+                    Loss: 3.009e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:31:17,778:main:
+                    solver, It: 28310,
+                    Loss: 3.078e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:31:19,538:main:
+                    solver, It: 28410,
+                    Loss: 2.949e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:31:21,283:main:
+                    solver, It: 28510,
+                    Loss: 3.073e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:31:23,045:main:
+                    solver, It: 28610,
+                    Loss: 2.902e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:31:24,796:main:
+                    solver, It: 28710,
+                    Loss: 3.237e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:31:26,560:main:
+                    solver, It: 28810,
+                    Loss: 3.021e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:31:28,321:main:
+                    solver, It: 28910,
+                    Loss: 3.072e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:31:30,036:main:
+                    solver, It: 29010,
+                    Loss: 3.003e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:31:31,763:main:
+                    solver, It: 29110,
+                    Loss: 3.093e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:31:33,508:main:
+                    solver, It: 29210,
+                    Loss: 3.048e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:31:35,254:main:
+                    solver, It: 29310,
+                    Loss: 2.895e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:31:37,018:main:
+                    solver, It: 29410,
+                    Loss: 3.041e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:31:38,786:main:
+                    solver, It: 29510,
+                    Loss: 3.034e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:31:40,560:main:
+                    solver, It: 29610,
+                    Loss: 2.909e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:31:42,328:main:
+                    solver, It: 29710,
+                    Loss: 3.020e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:31:44,101:main:
+                    solver, It: 29810,
+                    Loss: 2.973e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:31:45,842:main:
+                    solver, It: 29910,
+                    Loss: 2.986e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:31:47,611:main:
+                    solver, It: 30010,
+                    Loss: 2.908e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:31:49,379:main:
+                    solver, It: 30110,
+                    Loss: 3.044e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:31:51,095:main:
+                    solver, It: 30210,
+                    Loss: 2.966e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:31:52,820:main:
+                    solver, It: 30310,
+                    Loss: 2.934e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:31:54,629:main:
+                    solver, It: 30410,
+                    Loss: 3.092e+00,
+                    Time: 1.80
+[INFO]2018-11-27 18:31:56,402:main:
+                    solver, It: 30510,
+                    Loss: 3.003e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:31:58,138:main:
+                    solver, It: 30610,
+                    Loss: 3.059e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:31:59,841:main:
+                    solver, It: 30710,
+                    Loss: 2.956e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:32:01,580:main:
+                    solver, It: 30810,
+                    Loss: 3.105e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:32:03,306:main:
+                    solver, It: 30910,
+                    Loss: 3.238e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:32:05,091:main:
+                    solver, It: 31010,
+                    Loss: 2.955e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:32:06,858:main:
+                    solver, It: 31110,
+                    Loss: 3.182e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:32:08,616:main:
+                    solver, It: 31210,
+                    Loss: 2.982e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:32:10,392:main:
+                    solver, It: 31310,
+                    Loss: 2.993e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:32:12,117:main:
+                    solver, It: 31410,
+                    Loss: 2.909e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:32:13,896:main:
+                    solver, It: 31510,
+                    Loss: 3.348e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:32:15,659:main:
+                    solver, It: 31610,
+                    Loss: 3.033e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:32:17,369:main:
+                    solver, It: 31710,
+                    Loss: 2.893e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:32:19,088:main:
+                    solver, It: 31810,
+                    Loss: 2.988e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:32:20,875:main:
+                    solver, It: 31910,
+                    Loss: 2.988e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:32:22,640:main:
+                    solver, It: 32010,
+                    Loss: 3.138e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:32:24,387:main:
+                    solver, It: 32110,
+                    Loss: 3.092e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:32:26,112:main:
+                    solver, It: 32210,
+                    Loss: 2.785e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:32:27,892:main:
+                    solver, It: 32310,
+                    Loss: 2.666e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:32:29,627:main:
+                    solver, It: 32410,
+                    Loss: 2.630e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:32:31,412:main:
+                    solver, It: 32510,
+                    Loss: 2.629e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:32:33,202:main:
+                    solver, It: 32610,
+                    Loss: 2.780e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:32:34,943:main:
+                    solver, It: 32710,
+                    Loss: 2.692e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:32:36,668:main:
+                    solver, It: 32810,
+                    Loss: 2.841e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:32:38,459:main:
+                    solver, It: 32910,
+                    Loss: 2.728e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:32:40,192:main:
+                    solver, It: 33010,
+                    Loss: 2.705e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:32:41,953:main:
+                    solver, It: 33110,
+                    Loss: 2.690e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:32:43,699:main:
+                    solver, It: 33210,
+                    Loss: 2.643e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:32:45,489:main:
+                    solver, It: 33310,
+                    Loss: 2.741e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:32:47,240:main:
+                    solver, It: 33410,
+                    Loss: 2.660e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:32:49,042:main:
+                    solver, It: 33510,
+                    Loss: 2.609e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:32:50,786:main:
+                    solver, It: 33610,
+                    Loss: 2.718e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:32:52,548:main:
+                    solver, It: 33710,
+                    Loss: 2.689e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:32:54,295:main:
+                    solver, It: 33810,
+                    Loss: 2.674e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:32:56,067:main:
+                    solver, It: 33910,
+                    Loss: 2.702e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:32:57,857:main:
+                    solver, It: 34010,
+                    Loss: 2.653e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:32:59,638:main:
+                    solver, It: 34110,
+                    Loss: 2.621e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:33:01,375:main:
+                    solver, It: 34210,
+                    Loss: 2.654e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:33:03,133:main:
+                    solver, It: 34310,
+                    Loss: 2.663e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:33:04,845:main:
+                    solver, It: 34410,
+                    Loss: 2.628e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:33:06,570:main:
+                    solver, It: 34510,
+                    Loss: 2.783e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:33:08,327:main:
+                    solver, It: 34610,
+                    Loss: 2.625e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:33:10,056:main:
+                    solver, It: 34710,
+                    Loss: 2.600e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:33:11,877:main:
+                    solver, It: 34810,
+                    Loss: 2.655e+00,
+                    Time: 1.81
+[INFO]2018-11-27 18:33:13,655:main:
+                    solver, It: 34910,
+                    Loss: 2.607e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:33:15,386:main:
+                    solver, It: 35010,
+                    Loss: 2.854e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:33:17,123:main:
+                    solver, It: 35110,
+                    Loss: 2.652e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:33:18,887:main:
+                    solver, It: 35210,
+                    Loss: 2.637e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:33:20,629:main:
+                    solver, It: 35310,
+                    Loss: 2.603e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:33:22,372:main:
+                    solver, It: 35410,
+                    Loss: 2.855e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:33:24,128:main:
+                    solver, It: 35510,
+                    Loss: 2.614e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:33:25,853:main:
+                    solver, It: 35610,
+                    Loss: 2.633e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:33:27,595:main:
+                    solver, It: 35710,
+                    Loss: 2.623e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:33:29,331:main:
+                    solver, It: 35810,
+                    Loss: 2.633e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:33:31,050:main:
+                    solver, It: 35910,
+                    Loss: 2.695e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:33:32,815:main:
+                    solver, It: 36010,
+                    Loss: 2.885e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:33:34,504:main:
+                    solver, It: 36110,
+                    Loss: 2.638e+00,
+                    Time: 1.68
+[INFO]2018-11-27 18:33:36,246:main:
+                    solver, It: 36210,
+                    Loss: 3.196e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:33:38,017:main:
+                    solver, It: 36310,
+                    Loss: 3.181e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:33:39,748:main:
+                    solver, It: 36410,
+                    Loss: 2.446e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:33:41,487:main:
+                    solver, It: 36510,
+                    Loss: 2.425e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:33:43,262:main:
+                    solver, It: 36610,
+                    Loss: 2.510e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:33:45,020:main:
+                    solver, It: 36710,
+                    Loss: 2.413e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:33:46,794:main:
+                    solver, It: 36810,
+                    Loss: 2.518e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:33:48,570:main:
+                    solver, It: 36910,
+                    Loss: 2.405e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:33:50,312:main:
+                    solver, It: 37010,
+                    Loss: 2.467e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:33:52,084:main:
+                    solver, It: 37110,
+                    Loss: 2.463e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:33:53,877:main:
+                    solver, It: 37210,
+                    Loss: 2.500e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:33:55,627:main:
+                    solver, It: 37310,
+                    Loss: 2.402e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:33:57,391:main:
+                    solver, It: 37410,
+                    Loss: 2.418e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:33:59,162:main:
+                    solver, It: 37510,
+                    Loss: 2.478e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:34:00,928:main:
+                    solver, It: 37610,
+                    Loss: 2.439e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:34:02,649:main:
+                    solver, It: 37710,
+                    Loss: 2.445e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:34:04,375:main:
+                    solver, It: 37810,
+                    Loss: 2.521e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:34:06,143:main:
+                    solver, It: 37910,
+                    Loss: 2.448e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:34:07,885:main:
+                    solver, It: 38010,
+                    Loss: 2.597e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:34:09,621:main:
+                    solver, It: 38110,
+                    Loss: 2.459e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:34:11,412:main:
+                    solver, It: 38210,
+                    Loss: 2.696e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:34:13,151:main:
+                    solver, It: 38310,
+                    Loss: 2.497e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:34:14,882:main:
+                    solver, It: 38410,
+                    Loss: 2.478e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:34:16,628:main:
+                    solver, It: 38510,
+                    Loss: 2.581e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:34:18,378:main:
+                    solver, It: 38610,
+                    Loss: 2.512e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:34:20,120:main:
+                    solver, It: 38710,
+                    Loss: 2.556e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:34:21,881:main:
+                    solver, It: 38810,
+                    Loss: 2.577e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:34:23,649:main:
+                    solver, It: 38910,
+                    Loss: 2.388e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:34:25,433:main:
+                    solver, It: 39010,
+                    Loss: 2.408e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:34:27,189:main:
+                    solver, It: 39110,
+                    Loss: 2.620e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:34:28,942:main:
+                    solver, It: 39210,
+                    Loss: 2.455e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:34:30,714:main:
+                    solver, It: 39310,
+                    Loss: 2.590e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:34:32,491:main:
+                    solver, It: 39410,
+                    Loss: 2.446e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:34:34,258:main:
+                    solver, It: 39510,
+                    Loss: 2.431e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:34:35,995:main:
+                    solver, It: 39610,
+                    Loss: 2.474e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:34:37,742:main:
+                    solver, It: 39710,
+                    Loss: 2.453e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:34:39,501:main:
+                    solver, It: 39810,
+                    Loss: 2.469e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:34:41,235:main:
+                    solver, It: 39910,
+                    Loss: 2.627e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:34:42,993:main:
+                    solver, It: 40010,
+                    Loss: 2.456e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:34:44,748:main:
+                    solver, It: 40110,
+                    Loss: 2.439e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:34:46,535:main:
+                    solver, It: 40210,
+                    Loss: 2.430e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:34:48,320:main:
+                    solver, It: 40310,
+                    Loss: 2.425e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:34:50,081:main:
+                    solver, It: 40410,
+                    Loss: 2.557e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:34:51,834:main:
+                    solver, It: 40510,
+                    Loss: 2.512e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:34:53,627:main:
+                    solver, It: 40610,
+                    Loss: 2.396e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:34:55,405:main:
+                    solver, It: 40710,
+                    Loss: 2.517e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:34:57,159:main:
+                    solver, It: 40810,
+                    Loss: 3.108e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:34:58,902:main:
+                    solver, It: 40910,
+                    Loss: 3.774e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:35:00,664:main:
+                    solver, It: 41010,
+                    Loss: 6.288e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:35:02,463:main:
+                    solver, It: 41110,
+                    Loss: 3.845e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:35:04,224:main:
+                    solver, It: 41210,
+                    Loss: 3.105e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:35:05,954:main:
+                    solver, It: 41310,
+                    Loss: 3.207e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:35:07,708:main:
+                    solver, It: 41410,
+                    Loss: 2.207e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:35:09,479:main:
+                    solver, It: 41510,
+                    Loss: 4.372e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:35:11,232:main:
+                    solver, It: 41610,
+                    Loss: 2.718e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:35:13,011:main:
+                    solver, It: 41710,
+                    Loss: 3.068e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:35:14,793:main:
+                    solver, It: 41810,
+                    Loss: 3.026e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:35:16,533:main:
+                    solver, It: 41910,
+                    Loss: 2.300e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:35:18,275:main:
+                    solver, It: 42010,
+                    Loss: 2.638e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:35:20,052:main:
+                    solver, It: 42110,
+                    Loss: 2.585e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:35:21,775:main:
+                    solver, It: 42210,
+                    Loss: 2.573e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:35:23,559:main:
+                    solver, It: 42310,
+                    Loss: 2.563e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:35:25,350:main:
+                    solver, It: 42410,
+                    Loss: 2.554e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:35:27,080:main:
+                    solver, It: 42510,
+                    Loss: 2.546e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:35:28,842:main:
+                    solver, It: 42610,
+                    Loss: 2.533e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:35:30,634:main:
+                    solver, It: 42710,
+                    Loss: 2.525e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:35:32,389:main:
+                    solver, It: 42810,
+                    Loss: 2.682e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:35:34,154:main:
+                    solver, It: 42910,
+                    Loss: 2.557e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:35:35,894:main:
+                    solver, It: 43010,
+                    Loss: 2.510e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:35:37,630:main:
+                    solver, It: 43110,
+                    Loss: 2.545e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:35:39,417:main:
+                    solver, It: 43210,
+                    Loss: 2.777e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:35:41,181:main:
+                    solver, It: 43310,
+                    Loss: 2.782e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:35:42,972:main:
+                    solver, It: 43410,
+                    Loss: 2.544e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:35:44,686:main:
+                    solver, It: 43510,
+                    Loss: 2.429e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:35:46,494:main:
+                    solver, It: 43610,
+                    Loss: 2.689e+00,
+                    Time: 1.80
+[INFO]2018-11-27 18:35:48,224:main:
+                    solver, It: 43710,
+                    Loss: 2.434e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:35:50,017:main:
+                    solver, It: 43810,
+                    Loss: 2.401e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:35:51,759:main:
+                    solver, It: 43910,
+                    Loss: 2.552e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:35:53,537:main:
+                    solver, It: 44010,
+                    Loss: 3.808e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:35:55,312:main:
+                    solver, It: 44110,
+                    Loss: 4.986e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:35:57,059:main:
+                    solver, It: 44210,
+                    Loss: 4.761e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:35:58,811:main:
+                    solver, It: 44310,
+                    Loss: 2.687e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:36:00,562:main:
+                    solver, It: 44410,
+                    Loss: 2.510e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:36:02,286:main:
+                    solver, It: 44510,
+                    Loss: 2.830e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:36:04,072:main:
+                    solver, It: 44610,
+                    Loss: 3.893e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:36:05,805:main:
+                    solver, It: 44710,
+                    Loss: 2.527e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:36:07,578:main:
+                    solver, It: 44810,
+                    Loss: 3.818e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:36:09,309:main:
+                    solver, It: 44910,
+                    Loss: 3.106e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:36:11,051:main:
+                    solver, It: 45010,
+                    Loss: 2.520e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:36:12,812:main:
+                    solver, It: 45110,
+                    Loss: 2.503e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:36:14,594:main:
+                    solver, It: 45210,
+                    Loss: 2.494e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:36:16,359:main:
+                    solver, It: 45310,
+                    Loss: 2.485e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:36:18,143:main:
+                    solver, It: 45410,
+                    Loss: 2.483e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:36:19,907:main:
+                    solver, It: 45510,
+                    Loss: 2.544e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:36:21,648:main:
+                    solver, It: 45610,
+                    Loss: 4.860e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:36:23,399:main:
+                    solver, It: 45710,
+                    Loss: 2.896e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:36:25,165:main:
+                    solver, It: 45810,
+                    Loss: 3.136e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:36:26,893:main:
+                    solver, It: 45910,
+                    Loss: 2.721e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:36:28,615:main:
+                    solver, It: 46010,
+                    Loss: 3.681e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:36:30,332:main:
+                    solver, It: 46110,
+                    Loss: 3.434e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:36:32,038:main:
+                    solver, It: 46210,
+                    Loss: 3.428e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:36:33,802:main:
+                    solver, It: 46310,
+                    Loss: 2.876e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:36:35,569:main:
+                    solver, It: 46410,
+                    Loss: 2.101e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:36:37,345:main:
+                    solver, It: 46510,
+                    Loss: 2.991e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:36:39,113:main:
+                    solver, It: 46610,
+                    Loss: 3.451e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:36:40,879:main:
+                    solver, It: 46710,
+                    Loss: 3.302e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:36:42,647:main:
+                    solver, It: 46810,
+                    Loss: 3.544e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:36:44,379:main:
+                    solver, It: 46910,
+                    Loss: 3.902e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:36:46,099:main:
+                    solver, It: 47010,
+                    Loss: 5.060e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:36:47,808:main:
+                    solver, It: 47110,
+                    Loss: 2.063e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:36:49,468:main:
+                    solver, It: 47210,
+                    Loss: 1.670e+00,
+                    Time: 1.65
+[INFO]2018-11-27 18:36:51,181:main:
+                    solver, It: 47310,
+                    Loss: 1.597e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:36:52,938:main:
+                    solver, It: 47410,
+                    Loss: 2.398e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:36:54,721:main:
+                    solver, It: 47510,
+                    Loss: 3.198e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:36:56,502:main:
+                    solver, It: 47610,
+                    Loss: 4.802e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:36:58,312:main:
+                    solver, It: 47710,
+                    Loss: 3.079e+00,
+                    Time: 1.80
+[INFO]2018-11-27 18:37:00,071:main:
+                    solver, It: 47810,
+                    Loss: 2.667e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:37:01,808:main:
+                    solver, It: 47910,
+                    Loss: 5.086e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:37:03,582:main:
+                    solver, It: 48010,
+                    Loss: 2.765e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:37:05,347:main:
+                    solver, It: 48110,
+                    Loss: 1.306e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:37:07,113:main:
+                    solver, It: 48210,
+                    Loss: 1.208e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:37:08,905:main:
+                    solver, It: 48310,
+                    Loss: 1.155e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:37:10,648:main:
+                    solver, It: 48410,
+                    Loss: 1.113e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:37:12,405:main:
+                    solver, It: 48510,
+                    Loss: 1.082e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:37:14,174:main:
+                    solver, It: 48610,
+                    Loss: 1.182e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:37:15,932:main:
+                    solver, It: 48710,
+                    Loss: 1.062e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:37:17,700:main:
+                    solver, It: 48810,
+                    Loss: 6.286e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:37:19,469:main:
+                    solver, It: 48910,
+                    Loss: 3.428e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:37:21,211:main:
+                    solver, It: 49010,
+                    Loss: 3.577e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:37:22,971:main:
+                    solver, It: 49110,
+                    Loss: 3.325e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:37:24,717:main:
+                    solver, It: 49210,
+                    Loss: 2.100e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:37:26,479:main:
+                    solver, It: 49310,
+                    Loss: 2.884e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:37:28,221:main:
+                    solver, It: 49410,
+                    Loss: 6.517e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:37:29,936:main:
+                    solver, It: 49510,
+                    Loss: 1.137e+01,
+                    Time: 1.71
+[INFO]2018-11-27 18:37:31,718:main:
+                    solver, It: 49610,
+                    Loss: 3.462e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:37:33,509:main:
+                    solver, It: 49710,
+                    Loss: 5.619e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:37:35,254:main:
+                    solver, It: 49810,
+                    Loss: 3.346e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:37:36,970:main:
+                    solver, It: 49910,
+                    Loss: 5.053e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:37:38,753:main:
+                    solver, It: 50010,
+                    Loss: 3.603e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:37:40,502:main:
+                    solver, It: 50110,
+                    Loss: 2.556e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:37:42,213:main:
+                    solver, It: 50210,
+                    Loss: 1.511e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:37:43,929:main:
+                    solver, It: 50310,
+                    Loss: 1.582e+01,
+                    Time: 1.71
+[INFO]2018-11-27 18:37:45,689:main:
+                    solver, It: 50410,
+                    Loss: 2.660e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:37:47,452:main:
+                    solver, It: 50510,
+                    Loss: 3.086e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:37:49,217:main:
+                    solver, It: 50610,
+                    Loss: 2.098e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:37:50,960:main:
+                    solver, It: 50710,
+                    Loss: 1.941e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:37:52,709:main:
+                    solver, It: 50810,
+                    Loss: 1.859e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:37:54,503:main:
+                    solver, It: 50910,
+                    Loss: 1.985e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:37:56,279:main:
+                    solver, It: 51010,
+                    Loss: 3.029e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:37:58,059:main:
+                    solver, It: 51110,
+                    Loss: 6.479e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:37:59,845:main:
+                    solver, It: 51210,
+                    Loss: 9.953e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:38:01,600:main:
+                    solver, It: 51310,
+                    Loss: 4.051e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:38:03,342:main:
+                    solver, It: 51410,
+                    Loss: 2.201e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:38:05,049:main:
+                    solver, It: 51510,
+                    Loss: 5.088e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:38:06,767:main:
+                    solver, It: 51610,
+                    Loss: 2.715e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:38:08,497:main:
+                    solver, It: 51710,
+                    Loss: 1.617e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:38:10,235:main:
+                    solver, It: 51810,
+                    Loss: 1.359e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:38:11,980:main:
+                    solver, It: 51910,
+                    Loss: 1.459e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:38:13,726:main:
+                    solver, It: 52010,
+                    Loss: 1.366e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:38:15,463:main:
+                    solver, It: 52110,
+                    Loss: 1.290e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:38:17,190:main:
+                    solver, It: 52210,
+                    Loss: 1.225e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:38:18,949:main:
+                    solver, It: 52310,
+                    Loss: 1.209e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:38:20,711:main:
+                    solver, It: 52410,
+                    Loss: 1.387e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:38:22,460:main:
+                    solver, It: 52510,
+                    Loss: 1.378e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:38:24,236:main:
+                    solver, It: 52610,
+                    Loss: 1.150e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:38:25,948:main:
+                    solver, It: 52710,
+                    Loss: 1.150e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:38:27,736:main:
+                    solver, It: 52810,
+                    Loss: 1.253e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:38:29,474:main:
+                    solver, It: 52910,
+                    Loss: 1.421e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:38:31,269:main:
+                    solver, It: 53010,
+                    Loss: 2.499e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:38:33,008:main:
+                    solver, It: 53110,
+                    Loss: 6.453e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:38:34,760:main:
+                    solver, It: 53210,
+                    Loss: 5.244e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:38:36,517:main:
+                    solver, It: 53310,
+                    Loss: 3.053e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:38:38,260:main:
+                    solver, It: 53410,
+                    Loss: 2.843e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:38:40,032:main:
+                    solver, It: 53510,
+                    Loss: 2.289e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:38:41,782:main:
+                    solver, It: 53610,
+                    Loss: 2.259e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:38:43,536:main:
+                    solver, It: 53710,
+                    Loss: 2.280e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:38:45,299:main:
+                    solver, It: 53810,
+                    Loss: 2.095e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:38:47,034:main:
+                    solver, It: 53910,
+                    Loss: 2.268e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:38:48,774:main:
+                    solver, It: 54010,
+                    Loss: 2.040e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:38:50,494:main:
+                    solver, It: 54110,
+                    Loss: 2.023e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:38:52,265:main:
+                    solver, It: 54210,
+                    Loss: 1.998e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:38:54,017:main:
+                    solver, It: 54310,
+                    Loss: 2.213e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:38:55,758:main:
+                    solver, It: 54410,
+                    Loss: 1.919e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:38:57,552:main:
+                    solver, It: 54510,
+                    Loss: 1.943e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:38:59,351:main:
+                    solver, It: 54610,
+                    Loss: 1.938e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:39:01,093:main:
+                    solver, It: 54710,
+                    Loss: 1.903e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:39:02,867:main:
+                    solver, It: 54810,
+                    Loss: 2.156e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:39:04,616:main:
+                    solver, It: 54910,
+                    Loss: 2.151e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:39:06,399:main:
+                    solver, It: 55010,
+                    Loss: 2.386e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:39:08,154:main:
+                    solver, It: 55110,
+                    Loss: 1.699e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:39:09,931:main:
+                    solver, It: 55210,
+                    Loss: 1.665e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:39:11,686:main:
+                    solver, It: 55310,
+                    Loss: 1.651e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:39:13,421:main:
+                    solver, It: 55410,
+                    Loss: 1.640e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:39:15,183:main:
+                    solver, It: 55510,
+                    Loss: 1.629e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:39:16,946:main:
+                    solver, It: 55610,
+                    Loss: 1.620e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:39:18,731:main:
+                    solver, It: 55710,
+                    Loss: 1.609e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:39:20,461:main:
+                    solver, It: 55810,
+                    Loss: 1.589e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:39:22,252:main:
+                    solver, It: 55910,
+                    Loss: 1.566e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:39:23,989:main:
+                    solver, It: 56010,
+                    Loss: 1.621e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:39:25,680:main:
+                    solver, It: 56110,
+                    Loss: 1.569e+00,
+                    Time: 1.68
+[INFO]2018-11-27 18:39:27,425:main:
+                    solver, It: 56210,
+                    Loss: 1.719e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:39:29,206:main:
+                    solver, It: 56310,
+                    Loss: 1.542e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:39:30,991:main:
+                    solver, It: 56410,
+                    Loss: 1.520e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:39:32,781:main:
+                    solver, It: 56510,
+                    Loss: 1.750e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:39:34,525:main:
+                    solver, It: 56610,
+                    Loss: 1.440e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:39:36,271:main:
+                    solver, It: 56710,
+                    Loss: 1.383e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:39:38,004:main:
+                    solver, It: 56810,
+                    Loss: 1.365e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:39:39,761:main:
+                    solver, It: 56910,
+                    Loss: 1.463e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:39:41,551:main:
+                    solver, It: 57010,
+                    Loss: 1.605e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:39:43,300:main:
+                    solver, It: 57110,
+                    Loss: 1.330e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:39:45,065:main:
+                    solver, It: 57210,
+                    Loss: 1.335e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:39:46,830:main:
+                    solver, It: 57310,
+                    Loss: 1.324e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:39:48,567:main:
+                    solver, It: 57410,
+                    Loss: 1.341e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:39:50,298:main:
+                    solver, It: 57510,
+                    Loss: 1.319e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:39:52,037:main:
+                    solver, It: 57610,
+                    Loss: 1.384e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:39:53,789:main:
+                    solver, It: 57710,
+                    Loss: 1.247e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:39:55,526:main:
+                    solver, It: 57810,
+                    Loss: 1.314e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:39:57,253:main:
+                    solver, It: 57910,
+                    Loss: 1.350e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:39:58,968:main:
+                    solver, It: 58010,
+                    Loss: 1.873e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:40:00,684:main:
+                    solver, It: 58110,
+                    Loss: 1.304e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:40:02,390:main:
+                    solver, It: 58210,
+                    Loss: 1.383e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:40:04,177:main:
+                    solver, It: 58310,
+                    Loss: 1.357e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:40:05,923:main:
+                    solver, It: 58410,
+                    Loss: 1.313e+00,
+                    Time: 1.74
+[INFO]2018-11-27 18:40:07,716:main:
+                    solver, It: 58510,
+                    Loss: 1.429e+00,
+                    Time: 1.79
+[INFO]2018-11-27 18:40:09,440:main:
+                    solver, It: 58610,
+                    Loss: 1.489e+00,
+                    Time: 1.71
+[INFO]2018-11-27 18:40:11,220:main:
+                    solver, It: 58710,
+                    Loss: 1.258e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:40:12,977:main:
+                    solver, It: 58810,
+                    Loss: 1.282e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:40:14,759:main:
+                    solver, It: 58910,
+                    Loss: 1.445e+00,
+                    Time: 1.77
+[INFO]2018-11-27 18:40:16,545:main:
+                    solver, It: 59010,
+                    Loss: 1.320e+00,
+                    Time: 1.78
+[INFO]2018-11-27 18:40:18,299:main:
+                    solver, It: 59110,
+                    Loss: 1.905e+00,
+                    Time: 1.75
+[INFO]2018-11-27 18:40:20,032:main:
+                    solver, It: 59210,
+                    Loss: 1.312e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:40:21,760:main:
+                    solver, It: 59310,
+                    Loss: 1.244e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:40:23,493:main:
+                    solver, It: 59410,
+                    Loss: 1.975e+00,
+                    Time: 1.73
+[INFO]2018-11-27 18:40:25,265:main:
+                    solver, It: 59510,
+                    Loss: 1.498e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:40:26,974:main:
+                    solver, It: 59610,
+                    Loss: 1.908e+00,
+                    Time: 1.70
+[INFO]2018-11-27 18:40:28,736:main:
+                    solver, It: 59710,
+                    Loss: 2.034e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:40:30,463:main:
+                    solver, It: 59810,
+                    Loss: 1.173e+00,
+                    Time: 1.72
+[INFO]2018-11-27 18:40:32,231:main:
+                    solver, It: 59910,
+                    Loss: 1.495e+00,
+                    Time: 1.76
+[INFO]2018-11-27 18:43:32,135:main:Error u: 4.864e-01
