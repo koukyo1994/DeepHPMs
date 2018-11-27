@@ -9,8 +9,22 @@ from config.constants import LOG_PATH, ACTIVATION, INTERVAL
 
 
 class BaseHPM:
-    def __init__(self, idn_lbs, idn_ubs, sol_lbs, sol_ubs, t, x, u, tb, x0, u0,
-                 X_f, layers, u_layers, pde_layers):
+    def __init__(self,
+                 idn_lbs,
+                 idn_ubs,
+                 sol_lbs,
+                 sol_ubs,
+                 t,
+                 x,
+                 u,
+                 tb,
+                 x0,
+                 u0,
+                 X_f,
+                 layers,
+                 u_layers,
+                 pde_layers,
+                 log_path=LOG_PATH):
 
         if not ((len(idn_lbs) == len(idn_ubs)) and (len(idn_ubs) == len(t)) and
                 (len(t) == len(u)) and (len(u) == len(x)) and
@@ -26,8 +40,10 @@ class BaseHPM:
         self.sol_lb = sol_lbs
         self.sol_ub = sol_ubs
 
+        self.loss_before = 1e5
+
         # Logging Tool
-        self.logger = get_logger(LOG_PATH)
+        self.logger = get_logger(log_path)
 
     def idn_init(self, t, x, u, u_layers, pde_layers):
         # Training Data
@@ -242,7 +258,9 @@ class BaseHPM:
         return f
 
     def callback(self, loss):
-        self.logger.info(f"'L-BFGS-B' Optimizer Loss: {loss:.3e}")
+        if self.loss_before / loss > 5:
+            self.logger.info(f"'L-BFGS-B' Optimizer Loss: {loss:.3e}")
+            self.loss_before = loss
 
     def train_solver(self, N_iter, scipy_opt=False):
         tf_dict = {

@@ -6,6 +6,8 @@ from scipy.interpolate import griddata
 from core.plot import plt_saver
 from core.loader import DataLoader
 
+from hyperdash import Experiment
+
 if __name__ == "__main__":
     sys.path.append("./")
     from models.burgers import BurgersHPM
@@ -13,16 +15,27 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--niter", default=10000, type=int)
     parser.add_argument("--scipyopt", default=False)
+    parser.add_argument("--name", default="default")
+    parser.add_argument("traindata", nargs="+")
+    parser.add_argument(
+        "--testdata", default="../MyData/burgers_polynominal.mat")
     args = parser.parse_args()
+    logname = f"log/burgers_{args.name}.log"
+    figurename = f"Burgers_{args.name}"
     # filen = "../MyData/burgers_cos.mat"
-    
-    dataloader = DataLoader(
-        ["../MyData/burgers_cos.mat"],
-        "../MyData/burgers_polynominal.mat", 10.0, 8.0)
+
+    exp = Experiment(args.name)
+    exp.param("niter", args.niter)
+    exp.param("scipyopt", args.scipyopt)
+    exp.param("testdata", args.testdata)
+    for i, n in enumerate(args.traindata):
+        exp.param(f"traindata{i}", n)
+
+    dataloader = DataLoader(args.traindata, args.testdata, 10.0, 8.0)
     sol_data = dataloader.get_solver_data(20000)
     idn_data = dataloader.get_train_batch()
 
-    u_layers = [[2, 50, 50, 50, 50, 1] for _ in range(1)]
+    u_layers = [[2, 50, 50, 50, 50, 1] for _ in range(len(args.traindata))]
     pde_layers = [3, 100, 100, 1]
     layers = [2, 50, 50, 50, 50, 1]
 
@@ -41,7 +54,7 @@ if __name__ == "__main__":
 
     model = BurgersHPM(idn_lbs, idn_ubs, sol_lb, sol_ub, train_ts, train_xs,
                        train_us, train_tb, train_x0, train_u0, train_X_f,
-                       layers, u_layers, pde_layers)
+                       layers, u_layers, pde_layers, logname)
     model.train_idn(args.niter, "model/saved.model", args.scipyopt)
 
     # idn_t_stars = idn_data["idn_t_stars"]
@@ -65,6 +78,7 @@ if __name__ == "__main__":
     error_u = np.linalg.norm(sol_u_star - u_pred, 2) / np.linalg.norm(
         sol_u_star, 2)
     model.logger.info(f"Error u: {error_u:.3e}")
+    exp.metric("Error u", error_u)
 
     sol_X_star = sol_data["sol_X_star"]
     sol_T = sol_data["sol_T"]
@@ -72,4 +86,5 @@ if __name__ == "__main__":
     sol_exact = sol_data["sol_exact"]
     U_pred = griddata(
         sol_X_star, u_pred.flatten(), (sol_T, sol_X), method="cubic")
-    plt_saver(U_pred, sol_exact, sol_lb, sol_ub, "Burgers_train_cos_predict_polynominal")
+    plt_saver(U_pred, sol_exact, sol_lb, sol_ub, figurename)
+    exp.end()
