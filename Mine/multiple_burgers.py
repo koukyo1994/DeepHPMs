@@ -17,8 +17,8 @@ if __name__ == "__main__":
     # filen = "../MyData/burgers_cos.mat"
     
     dataloader = DataLoader(
-        ["../MyData/burgers_cos.mat"],
-        "../MyData/burgers_sine.mat", 10.0, 8.0)
+        ["../MyData/burgers_sine.mat"],
+        "../MyData/burgers_cos.mat", 10.0, 8.0)
     sol_data = dataloader.get_solver_data(20000)
     idn_data = dataloader.get_train_batch()
 
@@ -72,4 +72,4 @@ if __name__ == "__main__":
     sol_exact = sol_data["sol_exact"]
     U_pred = griddata(
         sol_X_star, u_pred.flatten(), (sol_T, sol_X), method="cubic")
-    plt_saver(U_pred, sol_exact, sol_lb, sol_ub, "Burgers_swap_cos")
+    plt_saver(U_pred, sol_exact, sol_lb, sol_ub, "Burgers_train_sine_predict_cos")
