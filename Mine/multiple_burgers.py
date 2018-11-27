@@ -16,7 +16,7 @@ if __name__ == "__main__":
     parser.add_argument("--niter", default=10000, type=int)
     parser.add_argument("--scipyopt", default=False)
     parser.add_argument("--name", default="default")
-    parser.add_argument("traindata", nargs="+")
+    parser.add_argument("--traindata", nargs="+")
     parser.add_argument(
         "--testdata", default="../MyData/burgers_polynominal.mat")
     args = parser.parse_args()
