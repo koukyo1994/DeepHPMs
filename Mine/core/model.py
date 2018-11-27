@@ -33,11 +33,11 @@ class DeepHPM:
         # TF session
         self.sess = tf.Session(
             config=tf.ConfigProto(
-                allow_soft_placement=True, log_device_placement=True,
-                gpu_options=tf.GPUOptions(per_process_gpu_memory_fraction=0.95,
-                visible_device_list="0"
-            )
-        ))
+                allow_soft_placement=True,
+                log_device_placement=True,
+                gpu_options=tf.GPUOptions(
+                    per_process_gpu_memory_fraction=0.95,
+                    visible_device_list="0")))
         init = tf.global_variables_initializer()
         self.sess.run(init)
 
@@ -76,7 +76,8 @@ class DeepHPM:
         # Scipy Optimizer
         self.scipy_u_optimizer = tf.contrib.opt.ScipyOptimizerInterface(
             self.u_loss,
-            var_list=self.u_weights + self.u_biases + self.pde_weights + self.pde_biases,
+            var_list=self.u_weights + self.u_biases + self.pde_weights +
+            self.pde_biases,
             method="L-BFGS-B",
             options={
                 "maxiter": 50000,

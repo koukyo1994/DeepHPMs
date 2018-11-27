@@ -34,6 +34,10 @@ class BurgersHPM(BaseHPM):
         # TF session
         self.sess = tf.Session(
             config=tf.ConfigProto(
-                allow_soft_placement=True, log_device_placement=True))
+                allow_soft_placement=True,
+                log_device_placement=True,
+                gpu_options=tf.GPUOptions(
+                    per_process_gpu_memory_fraction=0.95,
+                    visible_device_list="0")))
         init = tf.global_variables_initializer()
         self.sess.run(init)
