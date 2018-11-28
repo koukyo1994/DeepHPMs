@@ -1,0 +1,18 @@
+[INFO]2018-11-29 00:34:14,054:main:
+                    idn-Adam,
+                    It: 0,
+                    Loss: 3.363e+03,
+                    Time: 0.94
+                    
+[INFO]2018-11-29 00:34:16,840:main:
+                    idn-Adam,
+                    It: 100,
+                    Loss: 3.592e+02,
+                    Time: 1.93
+                    
+[INFO]2018-11-29 00:34:19,359:main:
+                    idn-Adam,
+                    It: 200,
+                    Loss: 1.589e+02,
+                    Time: 1.91
+                    
