@@ -81,8 +81,8 @@ class BurgersSeparate:
         self.u_loss = tf.reduce_sum(
             sum(
                 list(
-                    map(tf.square, map(lambda x, y: x - y), self.u_preds,
-                        self.u_phs))))
+                    map(tf.square, map(lambda x, y: x - y, self.u_preds,
+                        self.u_phs)))))
         self.f_loss = tf.reduce_sum(sum(list(map(tf.square, self.f_pred))))
 
         unnested = []
@@ -128,7 +128,7 @@ class BurgersSeparate:
         X = map(lambda a, b: tf.concat([a, b], 1), t, x)
         H = map(init, X, self.idn_lbs, self.idn_ubs)
         u = list(
-            map(build_nn, H, self.u_params, [ACTIVATION * len(self.u_params)]))
+            map(build_nn, H, self.u_params, [ACTIVATION] * len(self.u_params)))
         return u
 
     def pde_net(self, terms):
