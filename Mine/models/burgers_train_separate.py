@@ -161,7 +161,7 @@ class BurgersSeparate:
             self.sess.run(self.adam_u_optimizer_train, tf_dict)
             if i % INTERVAL == 0:
                 elapsed = time.time() - start_time
-                loss_value = self.sess.run(self.loss, tf_dict)
+                loss_value = self.sess.run(self.u_loss, tf_dict)
                 self.logger.info(f"""
                     idn-Adam_u,
                     It: {i},
@@ -177,7 +177,7 @@ class BurgersSeparate:
             self.scipy_u_optimizer.minimize(
                 self.sess,
                 feed_dict=tf_dict,
-                fetches=[self.loss],
+                fetches=[self.u_loss],
                 loss_callback=self.callback)
 
     def _train_f(self, N_iter, model_path, scipy_opt):
@@ -193,7 +193,7 @@ class BurgersSeparate:
             self.sess.run(self.adam_f_optimizer_train, tf_dict)
             if i % INTERVAL == 0:
                 elapsed = time.time() - start_time
-                loss_value = self.sess.run(self.loss, tf_dict)
+                loss_value = self.sess.run(self.f_loss, tf_dict)
                 self.logger.info(f"""
                     idn-Adam_f,
                     It: {i},
@@ -209,7 +209,7 @@ class BurgersSeparate:
             self.scipy_f_optimizer.minimize(
                 self.sess,
                 feed_dict=tf_dict,
-                fetches=[self.loss],
+                fetches=[self.f_loss],
                 loss_callback=self.callback)
 
     def train_idn(self, N_iter, model_path, scipy_opt=False):
